@@ -449,7 +449,8 @@
       "id": "promo-1",
       "title": "Texto alternativo",
       "image": ["promotions/edicion-especial-temporada.jpg", "promotions/edicion-especial-temporada_01.jpg"],
-      "enabled": true
+      "enabled": true,
+      "schedule": { "from": "2026-10-01", "until": "2026-11-15" }
     }
   ],
   "additionalInfo": {
