@@ -303,7 +303,7 @@
     {
       "id": "aceite-relajante",
       "name": "Aceite Relajante",
-	  "title": "🌜5ml, 10 ml y 30 ml",
+      "title": "🌜5ml, 10 ml y 30 ml",
       "description": "Blend relajante con jazmín, rosas y sándalo. Calma la mente, reduce el estrés y favorece un descanso profundo. Presentaciones de 5 ml, 10 ml y 30 ml.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -315,7 +315,7 @@
     {
       "id": "aceite-antiestres",
       "name": "Aceite Antiestrés",
-	  "title": "🌿5ml, 10 ml y 30 ml",
+      "title": "🌿5ml, 10 ml y 30 ml",
       "description": "Lavanda y romero para aliviar ansiedad, dolores de cabeza y molestias menstruales. Promueve equilibrio y relajación. Presentaciones de 5 ml, 10 ml y 30 ml.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -327,7 +327,7 @@
     {
       "id": "aceite-energetico",
       "name": "Aceite Energético",
-	  "title": "5ml, 10 ml y 30 ml",
+      "title": "5ml, 10 ml y 30 ml",
       "description": "⚡Naranja, limón y menta para energía, ánimo y claridad mental. Perfecto para iniciar el día con fuerza. Presentaciones de 5 ml, 10 ml y 30 ml.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -339,7 +339,7 @@
     {
       "id": "equanimidad",
       "name": "🌿 Equanimidad",
-	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "title": "Sinergia de Aromaterapia · 10 ml",
       "description": "Equanimidad es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de lima, pachuli y sándalo, creada para acompañarte en momentos donde buscas equilibrio emocional, claridad mental y serenidad interior.<BR>Su aroma es fresco, terroso y profundamente reconfortante, ideal para pausar, respirar y volver al centro.<BR>Perfecta para usar en difusor, rituales personales o como apoyo en prácticas de meditación y autocuidado.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍋 Lima:<BR>- Aporta alegría, ligereza y energía positiva<BR>- Ayuda a disipar el cansancio mental y el desánimo<BR>- Favorece la claridad y el buen ánimo<BR>🌿 Pachuli:<BR>- Aceite profundamente equilibrante y enraizante<BR>- Ayuda a estabilizar emociones intensas y ansiedad<BR>- Conecta con la presencia y la seguridad interior<BR>🌳 Sándalo:<BR>- Promueve la calma profunda y la introspección<BR>- Ideal para meditación y momentos de quietud<BR>- Aporta sensación de paz, orden emocional y armonía",
       "price": 200.00,
       "priceStatus": "verified",
@@ -351,7 +351,7 @@
     {
       "id": "jubilo",
       "name": "🌿 Júbilo",
-	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "title": "Sinergia de Aromaterapia · 10 ml",
       "description": "Sinergia de Aromaterapia · 10 ml<BR>Júbilo es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de bergamota, ylang ylang y geranio, diseñada para elevar el ánimo, reconectar con la alegría y armonizar las emociones.<BR>Su aroma es floral, luminoso y suavemente cítrico, ideal para momentos en los que deseas sentir ligereza, optimismo y bienestar emocional.<BR>Perfecta para usar en difusor, rituales de autocuidado o para acompañar espacios donde se busca una energía cálida y positiva.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y aporta sensación de alegría y optimismo<BR>- Ayuda a reducir el estrés y la tensión emocional<BR>- Favorece la claridad mental y la energía positiva<BR>🌼 Ylang Ylang:<BR>- Aceite profundamente armonizante y relajante<BR>- Ayuda a liberar emociones reprimidas<BR>- Promueve el gozo, la autoestima y la conexión emocional<BR>🌸 Geranio:<BR>- Equilibra emociones y estados de ánimo<BR>- Apoya en procesos de estabilidad emocional y bienestar<BR>- Aporta sensación de suavidad, contención y armonía interior",
       "price": 200.00,
       "priceStatus": "verified",
@@ -363,7 +363,7 @@
     {
       "id": "concentracion",
       "name": "🌿 Concentración",
-	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "title": "Sinergia de Aromaterapia · 10 ml",
       "description": "Concentración es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de menta, eucalipto, lemongrass y romero, formulada para estimular la mente, mejorar el enfoque y favorecer la claridad mental.<BR>Su aroma es fresco, herbal y revitalizante, ideal para momentos de estudio, trabajo o actividades que requieren atención y lucidez.<BR>Perfecta para usar en difusor, espacios de trabajo o rutinas donde se busca energía mental y productividad consciente.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🌿 Menta:<BR>- Estimula la mente y mejora la atención y el enfoque<BR>- Aporta sensación de frescura y energía<BR>- Ayuda a despejar la fatiga mental<BR>🌬️ Eucalipto:<BR>- Favorece la claridad mental y respiratoria<BR>- Ayuda a liberar la sensación de saturación o confusión<BR>- Aporta una sensación de amplitud y orden<BR>🍃 Lemongrass:<BR>- Activa y revitaliza sin generar ansiedad<BR>- Ayuda a mantener la mente alerta y centrada<BR>- Aporta equilibrio entre energía y calma<BR>🌱 Romero:<BR>- Tradicionalmente asociado con la memoria y la concentración<BR>- Estimula el pensamiento claro y organizado<BR>- Apoya la productividad mental",
       "price": 200.00,
       "priceStatus": "verified",
@@ -375,7 +375,7 @@
     {
       "id": "dicha",
       "name": "🌿 Dicha",
-	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "title": "Sinergia de Aromaterapia · 10 ml",
       "description": "Dicha es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de bergamota, naranja y pachuli, creada para despertar la alegría, suavizar el ánimo y reconectar con el placer de los pequeños momentos.<BR>Su aroma es cítrico, cálido y ligeramente terroso, ideal para generar una sensación de bienestar, optimismo y armonía emocional.<BR>Perfecta para usar en difusor, rituales de gratitud o para llenar tus espacios de una energía luminosa y reconfortante.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y fomenta la alegría y el optimismo<BR>- Ayuda a reducir la tensión emocional<BR>- Aporta ligereza y claridad emocional<BR>🍊 Naranja:<BR>- Aceite alegre y reconfortante<BR>- Promueve sensaciones de bienestar, calidez y tranquilidad<BR>- Ideal para liberar estrés y crear ambientes positivos<BR>🌿 Pachuli:<BR>- Profundamente enraizante y equilibrante<BR>- Ayuda a estabilizar emociones y dar sensación de seguridad<BR>- Aporta profundidad y contención emocional a la mezcla",
       "price": 200.00,
       "priceStatus": "verified",
@@ -387,7 +387,7 @@
     {
       "id": "manteca-de-camote-barbasco",
       "name": "🧈 Manteca de Camote Barbasco",
-	  "title": "Equilibrio, nutrición y bienestar para tu piel",
+      "title": "Equilibrio, nutrición y bienestar para tu piel",
       "description": "Manteca corporal elaborada con extracto y aceite esencial de Barbasco (camote silvestre), ideal para acompañar a la piel en etapas de cambios hormonales. Su fórmula rica en vitamina E, antioxidantes y mantecas vegetales ayuda a nutrir profundamente, proteger de la resequedad extrema y mantener la piel suave, luminosa y reconfortada.<BR>Aporta bienestar a la piel, apoyando su equilibrio natural y ayudando a prevenir el envejecimiento prematuro. Perfecta para uso diario en todo el cuerpo y en zonas como pecho y articulaciones.<BR>Beneficios:<BR>* Nutre e hidrata profundamente<BR>* Ayuda a equilibrar la piel en cambios hormonales<BR>* Protege contra la resequedad extrema<BR>* Contribuye a retardar el envejecimiento celular<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar sobre la piel limpia y masajear suavemente hasta absorber.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -399,7 +399,7 @@
     {
       "id": "manteca-cicatrizante-concentrada",
       "name": "🧈 Manteca Cicatrizante Concentrada",
-	  "title": "Lavanda & Caléndula | Piel sensible",
+      "title": "Lavanda & Caléndula | Piel sensible",
       "description": "Manteca intensiva formulada para cuidar, proteger y regenerar la piel sensible. La combinación de lavanda y caléndula brinda alivio inmediato, ayudando a calmar irritaciones, desinflamar y apoyar la regeneración natural de la piel.<BR>Ideal para manos y cuello, así como para el cuidado de quemaduras leves, cicatrices, piquetes y pequeñas heridas. Su textura semi sólida se funde con la piel, dejándola nutrida, suave y reconfortada, con un delicado aroma floral que transmite calma y bienestar.<BR>Beneficios:<BR>* Cicatrizante y regeneradora<BR>* Desinflamante y calmante<BR>* Ayuda a tratar quemaduras, heridas y cicatrices<BR>* Protege la piel y aporta hidratación profunda<BR>* Ideal para piel sensible<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Floral<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar una pequeña cantidad sobre la zona deseada y masajear suavemente hasta su absorción.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -411,7 +411,7 @@
     {
       "id": "manteca-de-avellanas",
       "name": "🧈 Manteca de Avellanas",
-	  "title": "Nutrición suave para piel muy sensible",
+      "title": "Nutrición suave para piel muy sensible",
       "description": "Manteca corporal formulada para hidratar, nutrir y suavizar la piel sin dejar sensación grasosa. El aceite de avellana, rico en vitaminas A y E y aminoácidos antioxidantes, ayuda a calmar la piel irritada y a mejorar visiblemente la apariencia de piel muy seca, delicada o con tendencia a dermatitis, eccema o psoriasis.<BR>Su acción suave la hace ideal para bebés, niños pequeños y personas con piel extremadamente sensible, brindando confort, elasticidad y protección desde la primera aplicación.<BR>Beneficios:<BR>* Hidrata y nutre profundamente sin residuos grasos<BR>* Calma piel irritada y sensible<BR>* Ideal para piel muy seca y agrietada<BR>* Ayuda a mejorar la apariencia de piel con dermatitis, eccema o psoriasis<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear con movimientos circulares hasta su completa absorción.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -423,7 +423,7 @@
     {
       "id": "manteca-de-jazmin-and-arroz",
       "name": "🧈 Manteca de Jazmín & Arroz",
-	  "title": "Elasticidad, calma y belleza natural",
+      "title": "Elasticidad, calma y belleza natural",
       "description": "Manteca corporal formulada para hidratar, calmar y regenerar la piel de forma delicada y efectiva. La combinación de jazmín y arroz ayuda a mejorar la apariencia de estrías, cicatrices y acné, mientras aporta elasticidad y suavidad a la piel.<BR>Su acción antiinflamatoria y regenerativa la convierte en una gran aliada para piel seca, deshidratada o con tendencia a dermatitis y eccema. Su aroma floral envuelve los sentidos, brindando una experiencia sensorial que conecta con el bienestar y la feminidad.<BR>Beneficios:<BR>* Hidrata y mejora la elasticidad de la piel<BR>* Ayuda a atenuar estrías, cicatrices y acné<BR>* Calma irritaciones y desinflama<BR>* Regenera y embellece la piel<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Floral<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
       "price": 100.00,
       "priceStatus": "verified",
@@ -435,7 +435,7 @@
     {
       "id": "manteca-de-mango",
       "name": "🧈 Manteca de Mango",
-	  "title": "Vitalidad, nutrición y protección antioxidante",
+      "title": "Vitalidad, nutrición y protección antioxidante",
       "description": "Manteca corporal rica en antioxidantes, vitaminas A y C y fitoesteroles que ayudan a fortalecer la barrera natural de la piel, mejorar su elasticidad y estimular la producción de colágeno. Su fórmula nutre profundamente, protege contra los radicales libres y devuelve a la piel una apariencia más suave, luminosa y revitalizada.<BR>Ideal para piel muy sensible y seca que necesita hidratación intensa y un cuidado delicado, con un aroma frutal que despierta los sentidos.<BR>Beneficios:<BR>* Nutre y revitaliza la piel<BR>* Aporta antioxidantes y vitaminas esenciales<BR>* Ayuda a fortalecer la barrera cutánea<BR>* Contribuye a estimular el colágeno<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: Frutal<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
       "price": 100.00,
       "priceStatus": "verified",
