@@ -486,5 +486,16 @@
         "image": "info-adicional-formulas-especiales.jpg"
       }
     ]
+  },
+  "contact-us": {
+    "menuTitle": "Contacto",
+    "screenTitle": "Contacto",
+    "blocks": [
+      {
+        "title": "Jabones Artesanales",
+        "body": "Que no solo limpian, transforman tu piel todos los días.\nResultados reales. Naturaleza que funciona.\n\nEmail: hola@carolinamielysabila.com\n\nWhatsApp: (+52) 477 23 29784",
+        "image": "imagen-contacto.jpg"
+      }
+    ]
   }
 }
