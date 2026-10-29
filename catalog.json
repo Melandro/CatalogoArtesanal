@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": 1,
+  "business": {
+    "name": "Carolina Miel y Sábila",
+    "currency": "MXN",
+    "source": "Datos de nombre, descripción e imagen obtenidos de las páginas públicas de https://www.carolinamielysabila.com. Los precios no están disponibles públicamente y quedan pendientes de verificación con el negocio."
+  },
+  "show-in-home": [ "jabon-infalible", "jabon-de-miel-y-lavanda", "jabon-de-sabila", "jabon-de-matcha-con-miel", "cafe-con-miel", "aceite-relajante" ],
+  "taxonomy": [
+    {
+      "id": "jabones",
+      "display": "Jabones",
+      "subcategories": [
+        { "id": "artesanales", "display": "Artesanales" },
+        { "id": "infalible", "display": "Infalible" },
+        { "id": "purificantes-revitalizantes", "display": "Purificantes & revitalizantes" },
+        { "id": "relajantes-hidratantes", "display": "Relajantes & hidratantes" }
+      ]
+    },
+    {
+      "id": "aceites-con-proposito",
+      "display": "Aceites con propósito",
+      "subcategories": []
+    },
+    {
+      "id": "cremas",
+      "display": "Cremas",
+      "subcategories": []
+    },
+    {
+      "id": "balsamos",
+      "display": "Bálsamos",
+      "subcategories": []
+    }
+  ],
+  "products": [
+    {
+      "id": "jabon-infalible",
+      "name": "Jabón Infalible",
+      "title": "🧼 – Purifica, equilibra y transforma tu piel",
+      "description": "El favorito para el cuidado de piel grasa o con tendencia al acné. Elaborado con miel natural, sábila y aceites esenciales de árbol de té y romero: purifica, controla el exceso de grasa y ayuda a reducir imperfecciones y manchas. Su fórmula artesanal limpia profundamente sin resecar, dejando la piel fresca y equilibrada. Ideal para uso diario en rostro y cuerpo.",
+      "price": 45.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "primaryImage": "jabon-infalible.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg"]
+    },
+    {
+      "id": "racimo-de-uvas-de-miel",
+      "name": "🍇 Racimo de uvas de miel",
+      "title": "",
+      "description": "Jabón artesanal elaborado con glicerina vegetal a base de aceite de coco, con miel y aromas naturales.<BR><BR>Suave, hidratante y delicado con la piel.<BR><BR>Usos: Ornamental · Lavabo · Ducha · Bañera<BR><BR>Cuidados: Mantén seco y deja secar al aire tras su uso.<BR>⏳ Para una mayor firmeza y duración, se recomienda esperar 2 semanas antes del primer uso.<BR><BR>✨ Una pieza artesanal para disfrutar con calma.<BR><BR>🍇🧼 Nuestros racimos de jabón tienen un precio aproximado de $150, como los que aparecen en las fotografías.<BR>Pero ¡podemos hacerlo a tu gusto! 💜 Podemos elaborar un racimo más pequeño o más grande, dependiendo del tamaño que prefieras y de tu presupuesto.<BR><BR>✨ El precio se determina de acuerdo con el peso total del jabón, por lo que podemos ajustarnos a diferentes presupuestos.",
+      "price": 200.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["artesanales"],
+      "primaryImage": "racimo-de-uvas-de-miel.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg", "_05.jpg", "_06.jpg", "_07.jpg", "_08.jpg", "_09.jpg", "_10.jpg", "_11.jpg", "_12.jpg", "_13.jpg"]
+    },
+    {
+      "id": "jabon-de-miel",
+      "name": "Jabón de Miel",
+      "title": "Suavidad y nutrición para tu piel ✨",
+      "description": "Disponible desde 50 g hasta 100 g y en versión masajeadora de 130 g 🍯🌿<BR>La miel es un tesoro natural lleno de beneficios para la piel:<BR>* Humecta profundamente gracias a sus propiedades humectantes naturales.<BR>* Ayuda a suavizar y dar brillo a la piel, dejándola más tersa y luminosa.<BR>* Favorece la regeneración gracias a sus antioxidantes.<BR>* Ideal para piel seca, mixta o sensible, ya que calma y equilibra suavemente.<BR><BR>💛 Cómo usarlo:<BR>Humedece tu piel y frota el jabón directamente con movimientos circulares.<BR>La presentación masajeadora de 130 g ayuda a mejorar la circulación y a relajar tensiones mientras limpia y nutre tu piel.<BR>Enjuaga y disfruta la sensación de una piel suave, limpia y naturalmente radiante.<BR>Un jabón hecho con amor, calidad y los ingredientes que tu piel realmente agradece.<BRR>@mielysabila.artesanal",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-miel.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg"]
+    },
+    {
+      "id": "jabon-de-miel-y-lavanda",
+      "name": "Jabón de Miel y Lavanda",
+      "title": "🪻 Relaja los sentidos",
+      "description": "Jabón artesanal elaborado con miel pura y aceite esencial de lavanda ideal para consentir tu piel y tu mente.<BR>La miel hidrata profundamente y suaviza la piel, mientras que la lavanda aporta propiedades relajantes y equilibrantes, ayudando a reducir el estrés y mejorar el descanso. Perfecto para usar antes de dormir o como parte de tus rituales de bienestar.",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-miel-y-lavanda.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg","_04.jpg", "_05.jpg"]
+    },
+    {
+      "id": "jabon-de-miel-y-avena",
+      "name": "Jabón de Miel y Avena",
+      "title": "🌾– Suaviza y nutre naturalmente",
+      "description": "Hecho con miel pura y hojuelas de avena natural, este jabón artesanal limpia la piel con suavidad mientras la nutre e hidrata profundamente.<BR>La avena actúa como un exfoliante suave que elimina impurezas sin resecar, y la miel aporta hidratación y luminosidad, dejando la piel tersa, equilibrada y con un brillo saludable.<BR>Ideal para piel seca o sensible, y perfecto para uso diario en rostro y cuerpo.",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-miel-y-avena.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg"]
+    },
+    {
+      "id": "jabon-calmante-floral-de-miel",
+      "name": "Jabón Calmante Floral de Miel",
+      "title": "Suaviza, hidrata y calma la piel.",
+      "description": "La caléndula y la lavanda ayudan a reducir irritaciones<BR>y aportan un efecto relajante natural.<BR><i>Uso preferente de noche (Calma y relaja).</i>",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-calmante-floral-de-miel.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "jabon-de-manzanilla-y-miel",
+      "name": "Jabón de Manzanilla y Miel",
+      "title": "Suave · Calmante · Reparador",
+      "description": "✔ Calma irritaciones y enrojecimiento<BR>✔ Suaviza e hidrata profundamente<BR>✔ Ideal para piel sensible<BR>✔ Promueve la regeneración natural",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-manzanilla-y-miel.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg"]
+    },
+    {
+      "id": "jabon-de-sabila-con-calendula",
+      "name": "Jabón de Sábila con Caléndula",
+      "title": "Calmante · Restaurador · Suavizante",
+      "description": "✔ Alivia irritación y enrojecimiento<BR>✔ Hidrata y refresca profundamente<BR>✔ Favorece la regeneración de la piel<BR>✔ Ideal para piel delicada o sensibilizada",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-sabila-con-calendula.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "jabon-de-rosa-mosqueta-con-miel",
+      "name": "Jabón de Rosa Mosqueta con Miel",
+      "title": "Regenerante · Suavizante · Iluminador",
+      "description": "Ayuda a mejorar manchas y cicatrices.<BR>Aporta firmeza y elasticidad.<BR>Hidrata y suaviza la piel<BR>Deja un brillo natural y saludable.<BR><BR><i>(Uso preferente de noche)</i>",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-rosa-mosqueta-con-miel.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "jabon-de-sabila",
+      "name": "Jabón de Sábila",
+      "title": "Refresca, calma e hidrata la piel.",
+      "description": "Jabón artesanal de sábila que ayuda a mejorar irritaciones y aporta una sensación de frescura natural.",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-sabila.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "jabon-de-miel-y-sabila",
+      "name": "Jabón de Miel y Sábila",
+      "title": "Hidrata, suaviza y renueva la piel.",
+      "description": "La miel nutre profundamente<BR>y la sábila aporta frescura calmante.<BR><i>Uso de día y noche.</i>",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-miel-y-sabila.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "jabon-de-calendula-y-miel",
+      "name": "Jabón de Caléndula y Miel",
+      "title": "Suaviza, hidrata y ayuda a calmar la piel.",
+      "description": "La caléndula reduce irritaciones<BR>Y la miel aporta nutrición y luminosidad natural.<BR><i>Uso de día y noche.</i>",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "jabon-de-miel-y-sabila.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "suero-facial-aclarante",
+      "name": "🌸 Suero Facial Aclarante",
+      "title": "100% ingredientes orgánicos",
+      "description": "Nuestro Suero Facial Aclarante está formulado con agua de rosas, rosa mosqueta, clavo y glicerina vegetal, una combinación botánica diseñada para unificar el tono de la piel, aportar luminosidad e hidratar profundamente sin ser agresiva.<BR>Su textura ligera se absorbe fácilmente, dejando la piel fresca, suave y visiblemente más luminosa. Ideal para incluir en tu rutina diaria de cuidado facial consciente.<BR><BR>🌿 Beneficios principales:<BR>✨ Ayuda a unificar y aclarar el tono de la piel de forma gradual<BR>✨ Aporta luminosidad natural<BR>✨ Hidrata profundamente sin sensación grasosa<BR>✨ Contribuye a mejorar la apariencia de manchas y tono disparejo<BR>✨ Deja la piel suave, fresca y equilibrada<BR><BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🌹 Agua de rosas:<BR>- Tonifica y refresca la piel<BR>- Ayuda a calmar rojeces e irritaciones<BR>- Aporta luminosidad y equilibrio<BR>🌹 Rosa mosqueta:<BR>- Conocida por su efecto regenerador y unificador del tono<BR>- Ayuda a mejorar la apariencia de manchas y marcas<BR>- Nutre y aporta elasticidad<BR>🌿 Clavo:<BR>- Propiedades antioxidantes y purificantes<BR>- Ayuda a mantener la piel limpia y equilibrada<BR>- Apoya la uniformidad del tono<BR>🌱 Glicerina vegetal:<BR>- Potente humectante natural<BR>- Retiene la hidratación en la piel<BR>- Aporta suavidad y protección<BR><BR>✨ Modo de uso:<BR>Aplica unas gotas sobre el rostro limpio, dando suaves toquecitos hasta su completa absorción. Se recomienda usar de noche.<BR>Para mejores resultados, complementar con tu rutina habitual de cuidado facial.",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["relajantes-hidratantes"],
+      "primaryImage": "suero-facial-aclarante.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "jabon-de-matcha-con-lemongrass-y-sabila",
+      "name": "Jabón de Matcha con Lemongrass y sábila",
+      "title": "🍃 Energiza y purifica tu piel",
+      "description": "Hecho con té matcha natural, miel y aceite esencial de lemongrass, este jabón artesanal es ideal para revitalizar la piel y estimular los sentidos.<BR>El matcha es un potente antioxidante que ayuda a combatir los radicales libres y mejorar la textura de la piel, mientras que el lemongrass aporta una limpieza profunda y efecto refrescante que deja la piel suave y luminosa.<BR>Su aroma cítrico y herbal despierta la energía y el buen ánimo cada mañana.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-de-matcha-con-lemongrass-y-sabila.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg", "_05.jpg"]
+    },
+    {
+      "id": "jabon-de-miel-y-bergamota",
+      "name": "Jabón de Miel y Bergamota",
+      "title": "🍊 – Equilibra y purifica la piel",
+      "description": "Elaborado con miel natural y aceite esencial de bergamota, este jabón artesanal combina hidratación profunda con acción astringente y antiséptica.<BR>La miel suaviza y nutre la piel, mientras que la bergamota ayuda a regular el exceso de grasa, limpiar los poros y aportar luminosidad natural.<BR>Su aroma cítrico y relajante transforma cada baño en una experiencia fresca y revitalizante.<BR>Ideal para pieles mixtas o con tendencia grasa.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-de-miel-y-bergamota.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "jabon-infalible-con-almendras",
+      "name": "Jabón infalible con Almendras",
+      "title": "💫 – Limpieza profunda y nutrición total",
+      "description": "La nueva versión Plus de tu jabón más querido.<BR>El Jabón Infalible con Almendras está elaborado con miel natural, sábila, aceite esencial de árbol de té, extracto de almendra y polvo de almendra fina, para ofrecer una limpieza profunda sin resecar la piel.<BR>Sus ingredientes naturales ayudan a controlar el acné, eliminar impurezas y calmar irritaciones, mientras las almendras aportan vitamina E, suavidad y un toque de exfoliación delicada.<BR>Ideal para pieles mixtas o grasas que buscan equilibrio, hidratación y frescura natural.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "primaryImage": "jabon-infalible-con-almendras.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "jabon-lavanda-miel-y-sabila",
+      "name": "Jabón Lavanda, miel y sábila",
+      "title": "Hidrata, suaviza y mejora la elasticidad.",
+      "description": "La miel y la sábila renuevan la piel,<y la lavanda aporta un efecto calmante y reparador.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "primaryImage": "jabon-lavanda-miel-y-sabila.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "jabon-cafe-con-miel",
+      "name": "Jabón de Café con Miel",
+      "title": "Exfolia suavemente y activa la circulación.",
+      "description": "La miel hidrata y deja la piel suave, con un efecto revitalizante natural. <BR><i>Uso preferente por la mañana (revitaliza).</i>",
+      "price": 55.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-cafe-con-miel.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "jabon-de-matcha-con-miel",
+      "name": "Jabón de Matcha con Miel",
+      "title": "Antioxidante, iluminador e hidratante.",
+      "description": "Reduce la inflamación y calma la piel, aporta luminosidad y mejora el tono, e hidrata profundamente gracias a la miel. Ayuda a minimizar poros y a equilibrar la grasa, y protege contra los radicales libres.<BR><BR>Ideal para uso diario en rostro y cuerpo.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-de-matcha-con-miel.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "jabon-carbon-detox",
+      "name": "Jabón Carbón Détox 50 gr.",
+      "title": "Un jabón natural que limpia profundamente",
+      "description": "Regula el exceso de grasa y ayuda a mantener la piel fresca y libre de impurezas. Ideal para cutis graso o mixto, aporta una sensación de limpieza duradera sin resecar.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-carbon-detox.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "jabon-after-shave-plus-con-romero",
+      "name": "Jabón After Shave Plus con Romero",
+      "title": "🌿 Refresca y regenera la piel",
+      "description": "Un jabón artesanal formulado con miel natural, sábila fresca, romero y aceite esencial de romero.<BR>Diseñado especialmente para calmar e hidratar la piel después del afeitado, ayudando a prevenir irritaciones y enrojecimientos.<BR>El romero actúa como un antiséptico y tonificante natural, la sábila regenera y suaviza, y la miel hidrata en profundidad, dejando una piel fresca, limpia y con un aroma herbal muy agradable.<BR>Ideal para el cuidado diario del rostro o cuerpo.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-after-shave-plus-con-romero.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg"]
+    },
+    {
+      "id": "jabon-de-sabila-con-lemongrass",
+      "name": "Jabón de Sábila con Lemongrass",
+      "title": "Refresca y purifica la piel.",
+      "description": "La sábila calma e hidrata,<BR>y el Lemongrass aporta limpieza y frescura natural.",
+      "price": 60.00,
+      "priceStatus": "verified",
+      "categoryId": "jabones",
+      "subcategoryId": ["purificantes-revitalizantes"],
+      "primaryImage": "jabon-de-sabila-con-lemongrass.jpg",
+      "secondaryImages": ["_01.jpg", "_02.jpg"]
+    },
+    {
+      "id": "aceite-relajante",
+      "name": "Aceite Relajante",
+	  "title": "🌜5ml, 10 ml y 30 ml",
+      "description": "Blend relajante con jazmín, rosas y sándalo. Calma la mente, reduce el estrés y favorece un descanso profundo. Presentaciones de 5 ml, 10 ml y 30 ml.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "aceite-relajante.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "aceite-antiestres",
+      "name": "Aceite Antiestrés",
+	  "title": "🌿5ml, 10 ml y 30 ml",
+      "description": "Lavanda y romero para aliviar ansiedad, dolores de cabeza y molestias menstruales. Promueve equilibrio y relajación. Presentaciones de 5 ml, 10 ml y 30 ml.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "aceite-antiestres.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "aceite-energetico",
+      "name": "Aceite Energético",
+	  "title": "5ml, 10 ml y 30 ml",
+      "description": "⚡Naranja, limón y menta para energía, ánimo y claridad mental. Perfecto para iniciar el día con fuerza. Presentaciones de 5 ml, 10 ml y 30 ml.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "aceite-energetico.jpg",
+      "secondaryImages": ["_01.jpg"]
+    },
+    {
+      "id": "equanimidad",
+      "name": "🌿 Equanimidad",
+	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Equanimidad es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de lima, pachuli y sándalo, creada para acompañarte en momentos donde buscas equilibrio emocional, claridad mental y serenidad interior.<BR>Su aroma es fresco, terroso y profundamente reconfortante, ideal para pausar, respirar y volver al centro.<BR>Perfecta para usar en difusor, rituales personales o como apoyo en prácticas de meditación y autocuidado.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍋 Lima:<BR>- Aporta alegría, ligereza y energía positiva<BR>- Ayuda a disipar el cansancio mental y el desánimo<BR>- Favorece la claridad y el buen ánimo<BR>🌿 Pachuli:<BR>- Aceite profundamente equilibrante y enraizante<BR>- Ayuda a estabilizar emociones intensas y ansiedad<BR>- Conecta con la presencia y la seguridad interior<BR>🌳 Sándalo:<BR>- Promueve la calma profunda y la introspección<BR>- Ideal para meditación y momentos de quietud<BR>- Aporta sensación de paz, orden emocional y armonía",
+      "price": 200.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "equanimidad.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "jubilo",
+      "name": "🌿 Júbilo",
+	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Sinergia de Aromaterapia · 10 ml<BR>Júbilo es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de bergamota, ylang ylang y geranio, diseñada para elevar el ánimo, reconectar con la alegría y armonizar las emociones.<BR>Su aroma es floral, luminoso y suavemente cítrico, ideal para momentos en los que deseas sentir ligereza, optimismo y bienestar emocional.<BR>Perfecta para usar en difusor, rituales de autocuidado o para acompañar espacios donde se busca una energía cálida y positiva.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y aporta sensación de alegría y optimismo<BR>- Ayuda a reducir el estrés y la tensión emocional<BR>- Favorece la claridad mental y la energía positiva<BR>🌼 Ylang Ylang:<BR>- Aceite profundamente armonizante y relajante<BR>- Ayuda a liberar emociones reprimidas<BR>- Promueve el gozo, la autoestima y la conexión emocional<BR>🌸 Geranio:<BR>- Equilibra emociones y estados de ánimo<BR>- Apoya en procesos de estabilidad emocional y bienestar<BR>- Aporta sensación de suavidad, contención y armonía interior",
+      "price": 200.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "jubilo.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "concentracion",
+      "name": "🌿 Concentración",
+	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Concentración es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de menta, eucalipto, lemongrass y romero, formulada para estimular la mente, mejorar el enfoque y favorecer la claridad mental.<BR>Su aroma es fresco, herbal y revitalizante, ideal para momentos de estudio, trabajo o actividades que requieren atención y lucidez.<BR>Perfecta para usar en difusor, espacios de trabajo o rutinas donde se busca energía mental y productividad consciente.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🌿 Menta:<BR>- Estimula la mente y mejora la atención y el enfoque<BR>- Aporta sensación de frescura y energía<BR>- Ayuda a despejar la fatiga mental<BR>🌬️ Eucalipto:<BR>- Favorece la claridad mental y respiratoria<BR>- Ayuda a liberar la sensación de saturación o confusión<BR>- Aporta una sensación de amplitud y orden<BR>🍃 Lemongrass:<BR>- Activa y revitaliza sin generar ansiedad<BR>- Ayuda a mantener la mente alerta y centrada<BR>- Aporta equilibrio entre energía y calma<BR>🌱 Romero:<BR>- Tradicionalmente asociado con la memoria y la concentración<BR>- Estimula el pensamiento claro y organizado<BR>- Apoya la productividad mental",
+      "price": 200.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "concentracion.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "dicha",
+      "name": "🌿 Dicha",
+	  "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Dicha es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de bergamota, naranja y pachuli, creada para despertar la alegría, suavizar el ánimo y reconectar con el placer de los pequeños momentos.<BR>Su aroma es cítrico, cálido y ligeramente terroso, ideal para generar una sensación de bienestar, optimismo y armonía emocional.<BR>Perfecta para usar en difusor, rituales de gratitud o para llenar tus espacios de una energía luminosa y reconfortante.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y fomenta la alegría y el optimismo<BR>- Ayuda a reducir la tensión emocional<BR>- Aporta ligereza y claridad emocional<BR>🍊 Naranja:<BR>- Aceite alegre y reconfortante<BR>- Promueve sensaciones de bienestar, calidez y tranquilidad<BR>- Ideal para liberar estrés y crear ambientes positivos<BR>🌿 Pachuli:<BR>- Profundamente enraizante y equilibrante<BR>- Ayuda a estabilizar emociones y dar sensación de seguridad<BR>- Aporta profundidad y contención emocional a la mezcla",
+      "price": 200.00,
+      "priceStatus": "verified",
+      "categoryId": ["aceites-con-proposito"],
+      "subcategoryId": null
+      "primaryImage": "dicha.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "manteca-de-camote-barbasco",
+      "name": "🧈 Manteca de Camote Barbasco",
+	  "title": "Equilibrio, nutrición y bienestar para tu piel",
+      "description": "Manteca corporal elaborada con extracto y aceite esencial de Barbasco (camote silvestre), ideal para acompañar a la piel en etapas de cambios hormonales. Su fórmula rica en vitamina E, antioxidantes y mantecas vegetales ayuda a nutrir profundamente, proteger de la resequedad extrema y mantener la piel suave, luminosa y reconfortada.<BR>Aporta bienestar a la piel, apoyando su equilibrio natural y ayudando a prevenir el envejecimiento prematuro. Perfecta para uso diario en todo el cuerpo y en zonas como pecho y articulaciones.<BR>Beneficios:<BR>* Nutre e hidrata profundamente<BR>* Ayuda a equilibrar la piel en cambios hormonales<BR>* Protege contra la resequedad extrema<BR>* Contribuye a retardar el envejecimiento celular<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BRModo de uso: Aplicar sobre la piel limpia y masajear suavemente hasta absorber.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["cremas"],
+      "subcategoryId": null
+      "primaryImage": "manteca-de-camote-barbasco.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "manteca-cicatrizante-concentrada",
+      "name": "🧈 Manteca Cicatrizante Concentrada",
+	  "title": "Lavanda & Caléndula | Piel sensible",
+      "description": "Manteca intensiva formulada para cuidar, proteger y regenerar la piel sensible. La combinación de lavanda y caléndula brinda alivio inmediato, ayudando a calmar irritaciones, desinflamar y apoyar la regeneración natural de la piel.<BR>Ideal para manos y cuello, así como para el cuidado de quemaduras leves, cicatrices, piquetes y pequeñas heridas. Su textura semi sólida se funde con la piel, dejándola nutrida, suave y reconfortada, con un delicado aroma floral que transmite calma y bienestar.<BR>Beneficios:<BR>* Cicatrizante y regeneradora<BR>* Desinflamante y calmante<BR>* Ayuda a tratar quemaduras, heridas y cicatrices<BR>* Protege la piel y aporta hidratación profunda<BR>* Ideal para piel sensible<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Floral<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar una pequeña cantidad sobre la zona deseada y masajear suavemente hasta su absorción.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["cremas"],
+      "subcategoryId": null
+      "primaryImage": "manteca-cicatrizante-concentrada.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "manteca-de-avellanas",
+      "name": "🧈 Manteca de Avellanas",
+	  "title": "Nutrición suave para piel muy sensible",
+      "description": "Manteca corporal formulada para hidratar, nutrir y suavizar la piel sin dejar sensación grasosa. El aceite de avellana, rico en vitaminas A y E y aminoácidos antioxidantes, ayuda a calmar la piel irritada y a mejorar visiblemente la apariencia de piel muy seca, delicada o con tendencia a dermatitis, eccema o psoriasis.<BR>Su acción suave la hace ideal para bebés, niños pequeños y personas con piel extremadamente sensible, brindando confort, elasticidad y protección desde la primera aplicación.<BR>Beneficios:<BR>* Hidrata y nutre profundamente sin residuos grasos<BR>* Calma piel irritada y sensible<BR>* Ideal para piel muy seca y agrietada<BR>* Ayuda a mejorar la apariencia de piel con dermatitis, eccema o psoriasis<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear con movimientos circulares hasta su completa absorción.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["cremas"],
+      "subcategoryId": null
+      "primaryImage": "manteca-de-avellanas.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "manteca-de-jazmin-and-arroz",
+      "name": "🧈 Manteca de Jazmín & Arroz",
+	  "title": "Elasticidad, calma y belleza natural",
+      "description": "Manteca corporal formulada para hidratar, calmar y regenerar la piel de forma delicada y efectiva. La combinación de jazmín y arroz ayuda a mejorar la apariencia de estrías, cicatrices y acné, mientras aporta elasticidad y suavidad a la piel.<BR>Su acción antiinflamatoria y regenerativa la convierte en una gran aliada para piel seca, deshidratada o con tendencia a dermatitis y eccema. Su aroma floral envuelve los sentidos, brindando una experiencia sensorial que conecta con el bienestar y la feminidad.<BR>Beneficios:<BR>* Hidrata y mejora la elasticidad de la piel<BR>* Ayuda a atenuar estrías, cicatrices y acné<BR>* Calma irritaciones y desinflama<BR>* Regenera y embellece la piel<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Floral<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["cremas"],
+      "subcategoryId": null
+      "primaryImage": "manteca-de-jazmin-and-arroz.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "manteca-de-mango",
+      "name": "🧈 Manteca de Mango",
+	  "title": "Vitalidad, nutrición y protección antioxidante",
+      "description": "Manteca corporal rica en antioxidantes, vitaminas A y C y fitoesteroles que ayudan a fortalecer la barrera natural de la piel, mejorar su elasticidad y estimular la producción de colágeno. Su fórmula nutre profundamente, protege contra los radicales libres y devuelve a la piel una apariencia más suave, luminosa y revitalizada.<BR>Ideal para piel muy sensible y seca que necesita hidratación intensa y un cuidado delicado, con un aroma frutal que despierta los sentidos.<BR>Beneficios:<BR>* Nutre y revitaliza la piel<BR>* Aporta antioxidantes y vitaminas esenciales<BR>* Ayuda a fortalecer la barrera cutánea<BR>* Contribuye a estimular el colágeno<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: FrutalBR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": ["cremas"],
+      "subcategoryId": null
+      "primaryImage": "manteca-de-mango.jpg",
+      "secondaryImages": []
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-1",
+      "title": "Texto alternativo",
+      "image": ["promotions/edicion-especial-temporada.jpg", "promotions/edicion-especial-temporada_01.jpg"],
+      "enabled": true
+    }
+  ],
+  "additionalInfo": {
+    "menuTitle": "Información adicional",
+    "screenTitle": "Información adicional",
+    "blocks": [
+      {
+        "title": "🧼 Jabones Artesanales Miel y Sábila",
+        "body": "En Miel y Sábila elaboramos nuestros jabones de forma artesanal, en pequeños lotes, utilizando ingredientes naturales y fórmulas cuidadosamente desarrolladas para el cuidado diario de la piel.\n\nCada pieza es única. Por ello, ofrecemos precios por presentación y fórmulas, manteniendo siempre la calidad como prioridad.",
+        "image": "info-adicional-center.jpg"
+      },
+      {
+        "title": "⚖️ Nota importante:",
+        "body": "Al tratarse de productos artesanales, el peso y la apariencia pueden variar ligeramente.\n\nEn presentaciones fuera de estas medidas, el precio se calcula por gramo, de manera justa y proporcional."
+      },
+      {
+        "title": "🎁 Pedidos especiales y mayoreo",
+        "body": "Contamos con precios especiales para:\n\n• Eventos (bautizos, recuerdos, regalos)\n• Pedidos personalizados\n• Compras por volumen\n\nContáctanos para una cotización personalizada."
+      },
+      {
+        "title": "🌿 Líneas y precios",
+        "body": "Productos artesanales que nutren y revitalizan tu piel naturalmente."
+      },
+      {
+        "title": "✨ Línea Básica",
+        "body": "Formulada con miel natural o sábila, ideal para uso diario y todo tipo de piel.\n\n• 50 g aprox. — $30 MXN\n• 100 g aprox. — $50 MXN",
+        "image": "info-adicional-linea-basica.jpg"
+      },
+      {
+        "title": "✨ Fórmulas Especiales",
+        "body": "Jabones elaborados con combinaciones de ingredientes naturales, aceites vegetales y activos adicionales que potencian sus beneficios para la piel.\n\n• 50 g aprox. — $45 MXN\n• 100 g aprox. — $70 MXN",
+        "image": "info-adicional-formulas-especiales.jpg"
+      }
+    ]
+  }
+}
