@@ -307,7 +307,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "aceite-relajante.jpg",
       "secondaryImages": []
     },
@@ -319,7 +319,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "aceite-antiestres.jpg",
       "secondaryImages": []
     },
@@ -331,7 +331,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "aceite-energetico.jpg",
       "secondaryImages": ["_01.jpg"]
     },
@@ -343,7 +343,7 @@
       "price": 200.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "equanimidad.jpg",
       "secondaryImages": []
     },
@@ -355,7 +355,7 @@
       "price": 200.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "jubilo.jpg",
       "secondaryImages": []
     },
@@ -367,7 +367,7 @@
       "price": 200.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "concentracion.jpg",
       "secondaryImages": []
     },
@@ -379,7 +379,7 @@
       "price": 200.00,
       "priceStatus": "verified",
       "categoryId": ["aceites-con-proposito"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "dicha.jpg",
       "secondaryImages": []
     },
@@ -391,7 +391,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "manteca-de-camote-barbasco.jpg",
       "secondaryImages": []
     },
@@ -403,7 +403,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "manteca-cicatrizante-concentrada.jpg",
       "secondaryImages": []
     },
@@ -415,7 +415,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "manteca-de-avellanas.jpg",
       "secondaryImages": []
     },
@@ -427,7 +427,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "manteca-de-jazmin-and-arroz.jpg",
       "secondaryImages": []
     },
@@ -439,7 +439,7 @@
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
-      "subcategoryId": null
+      "subcategoryId": null,
       "primaryImage": "manteca-de-mango.jpg",
       "secondaryImages": []
     }
