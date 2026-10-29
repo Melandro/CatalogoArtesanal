@@ -6,7 +6,7 @@
     "currency": "MXN",
     "source": "Datos de nombre, descripción e imagen obtenidos de las páginas públicas de https://www.carolinamielysabila.com. Los precios no están disponibles públicamente y quedan pendientes de verificación con el negocio."
   },
-  "show-in-home": [ "jabon-infalible", "jabon-de-miel-y-lavanda", "jabon-de-sabila", "jabon-de-matcha-con-miel", "cafe-con-miel", "aceite-relajante" ],
+  "show-in-home": [ "jabon-infalible", "jabon-de-miel-y-lavanda", "jabon-de-sabila", "jabon-de-matcha-con-miel", "jabon-cafe-con-miel", "aceite-relajante" ],
   "taxonomy": [
     {
       "id": "jabones",
@@ -57,13 +57,13 @@
       "categoryId": "jabones",
       "subcategoryId": ["artesanales"],
       "primaryImage": "racimo-de-uvas-de-miel.jpg",
-      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg", "_05.jpg", "_06.jpg", "_07.jpg", "_08.jpg", "_09.jpg", "_10.jpg", "_11.jpg", "_12.jpg", "_13.jpg"]
+      "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg", "_05.jpg", "_06.jpg", "_07.jpg", "_08.jpg", "_09.jpg", "_10.jpg", "_11.jpg", "_12.jpg"]
     },
     {
       "id": "jabon-de-miel",
       "name": "Jabón de Miel",
       "title": "Suavidad y nutrición para tu piel ✨",
-      "description": "Disponible desde 50 g hasta 100 g y en versión masajeadora de 130 g 🍯🌿<BR>La miel es un tesoro natural lleno de beneficios para la piel:<BR>* Humecta profundamente gracias a sus propiedades humectantes naturales.<BR>* Ayuda a suavizar y dar brillo a la piel, dejándola más tersa y luminosa.<BR>* Favorece la regeneración gracias a sus antioxidantes.<BR>* Ideal para piel seca, mixta o sensible, ya que calma y equilibra suavemente.<BR><BR>💛 Cómo usarlo:<BR>Humedece tu piel y frota el jabón directamente con movimientos circulares.<BR>La presentación masajeadora de 130 g ayuda a mejorar la circulación y a relajar tensiones mientras limpia y nutre tu piel.<BR>Enjuaga y disfruta la sensación de una piel suave, limpia y naturalmente radiante.<BR>Un jabón hecho con amor, calidad y los ingredientes que tu piel realmente agradece.<BRR>@mielysabila.artesanal",
+      "description": "Disponible desde 50 g hasta 100 g y en versión masajeadora de 130 g 🍯🌿<BR>La miel es un tesoro natural lleno de beneficios para la piel:<BR>* Humecta profundamente gracias a sus propiedades humectantes naturales.<BR>* Ayuda a suavizar y dar brillo a la piel, dejándola más tersa y luminosa.<BR>* Favorece la regeneración gracias a sus antioxidantes.<BR>* Ideal para piel seca, mixta o sensible, ya que calma y equilibra suavemente.<BR><BR>💛 Cómo usarlo:<BR>Humedece tu piel y frota el jabón directamente con movimientos circulares.<BR>La presentación masajeadora de 130 g ayuda a mejorar la circulación y a relajar tensiones mientras limpia y nutre tu piel.<BR>Enjuaga y disfruta la sensación de una piel suave, limpia y naturalmente radiante.<BR>Un jabón hecho con amor, calidad y los ingredientes que tu piel realmente agradece.<BR>@mielysabila.artesanal",
       "price": 50.00,
       "priceStatus": "verified",
       "categoryId": "jabones",
@@ -176,7 +176,7 @@
       "priceStatus": "verified",
       "categoryId": "jabones",
       "subcategoryId": ["relajantes-hidratantes"],
-      "primaryImage": "jabon-de-miel-y-sabila.jpg",
+      "primaryImage": "jabon-de-calendula-y-miel.jpg",
       "secondaryImages": ["_01.jpg"]
     },
     {
@@ -231,7 +231,7 @@
       "id": "jabon-lavanda-miel-y-sabila",
       "name": "Jabón Lavanda, miel y sábila",
       "title": "Hidrata, suaviza y mejora la elasticidad.",
-      "description": "La miel y la sábila renuevan la piel,<y la lavanda aporta un efecto calmante y reparador.",
+      "description": "La miel y la sábila renuevan la piel,<BR>y la lavanda aporta un efecto calmante y reparador.",
       "price": 60.00,
       "priceStatus": "verified",
       "categoryId": "jabones",
@@ -388,7 +388,7 @@
       "id": "manteca-de-camote-barbasco",
       "name": "🧈 Manteca de Camote Barbasco",
 	  "title": "Equilibrio, nutrición y bienestar para tu piel",
-      "description": "Manteca corporal elaborada con extracto y aceite esencial de Barbasco (camote silvestre), ideal para acompañar a la piel en etapas de cambios hormonales. Su fórmula rica en vitamina E, antioxidantes y mantecas vegetales ayuda a nutrir profundamente, proteger de la resequedad extrema y mantener la piel suave, luminosa y reconfortada.<BR>Aporta bienestar a la piel, apoyando su equilibrio natural y ayudando a prevenir el envejecimiento prematuro. Perfecta para uso diario en todo el cuerpo y en zonas como pecho y articulaciones.<BR>Beneficios:<BR>* Nutre e hidrata profundamente<BR>* Ayuda a equilibrar la piel en cambios hormonales<BR>* Protege contra la resequedad extrema<BR>* Contribuye a retardar el envejecimiento celular<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BRModo de uso: Aplicar sobre la piel limpia y masajear suavemente hasta absorber.",
+      "description": "Manteca corporal elaborada con extracto y aceite esencial de Barbasco (camote silvestre), ideal para acompañar a la piel en etapas de cambios hormonales. Su fórmula rica en vitamina E, antioxidantes y mantecas vegetales ayuda a nutrir profundamente, proteger de la resequedad extrema y mantener la piel suave, luminosa y reconfortada.<BR>Aporta bienestar a la piel, apoyando su equilibrio natural y ayudando a prevenir el envejecimiento prematuro. Perfecta para uso diario en todo el cuerpo y en zonas como pecho y articulaciones.<BR>Beneficios:<BR>* Nutre e hidrata profundamente<BR>* Ayuda a equilibrar la piel en cambios hormonales<BR>* Protege contra la resequedad extrema<BR>* Contribuye a retardar el envejecimiento celular<BR>Tipo de piel: Todo tipo de piel<BR>Aroma: Dulce<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar sobre la piel limpia y masajear suavemente hasta absorber.",
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
@@ -436,7 +436,7 @@
       "id": "manteca-de-mango",
       "name": "🧈 Manteca de Mango",
 	  "title": "Vitalidad, nutrición y protección antioxidante",
-      "description": "Manteca corporal rica en antioxidantes, vitaminas A y C y fitoesteroles que ayudan a fortalecer la barrera natural de la piel, mejorar su elasticidad y estimular la producción de colágeno. Su fórmula nutre profundamente, protege contra los radicales libres y devuelve a la piel una apariencia más suave, luminosa y revitalizada.<BR>Ideal para piel muy sensible y seca que necesita hidratación intensa y un cuidado delicado, con un aroma frutal que despierta los sentidos.<BR>Beneficios:<BR>* Nutre y revitaliza la piel<BR>* Aporta antioxidantes y vitaminas esenciales<BR>* Ayuda a fortalecer la barrera cutánea<BR>* Contribuye a estimular el colágeno<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: FrutalBR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
+      "description": "Manteca corporal rica en antioxidantes, vitaminas A y C y fitoesteroles que ayudan a fortalecer la barrera natural de la piel, mejorar su elasticidad y estimular la producción de colágeno. Su fórmula nutre profundamente, protege contra los radicales libres y devuelve a la piel una apariencia más suave, luminosa y revitalizada.<BR>Ideal para piel muy sensible y seca que necesita hidratación intensa y un cuidado delicado, con un aroma frutal que despierta los sentidos.<BR>Beneficios:<BR>* Nutre y revitaliza la piel<BR>* Aporta antioxidantes y vitaminas esenciales<BR>* Ayuda a fortalecer la barrera cutánea<BR>* Contribuye a estimular el colágeno<BR>Tipo de piel: Piel muy sensible y seca<BR>Aroma: Frutal<BR>Consistencia: Semi sólida<BR>Modo de uso: Aplicar directamente sobre la piel y masajear suavemente hasta su completa absorción.",
       "price": 100.00,
       "priceStatus": "verified",
       "categoryId": ["cremas"],
