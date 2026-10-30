@@ -448,11 +448,18 @@
   ],
   "promotions": [
     {
-      "id": "promo-1",
-      "title": "Texto alternativo",
-      "image": ["promotions/edicion-especial-temporada.jpg", "promotions/edicion-especial-temporada_01.jpg"],
+      "id": "promo-temporada",
+      "title": "Edición especial de temporada",
       "enabled": true,
-      "schedule": { "from": "2026-10-01", "until": "2026-11-15" }
+      "schedule": { "from": "2026-10-01", "until": "2026-11-15" },
+      "slides": [
+        { "src": "promotions/edicion-especial-temporada.jpg",
+          "action": { "type": "product", "id": "racimo-de-uvas-de-miel" },
+          "cta": "Ver el racimo" },
+        { "src": "promotions/edicion-especial-temporada_01.jpg",
+          "action": { "type": "category", "categoryId": "jabones", "subcategoryId": "relajantes-hidratantes" } },
+        { "src": "promotions/VID-20261029-WA0004.mp4" }
+      ]
     }
   ],
   "additionalInfo": {
@@ -485,6 +492,61 @@
         "title": "✨ Fórmulas Especiales",
         "body": "Jabones elaborados con combinaciones de ingredientes naturales, aceites vegetales y activos adicionales que potencian sus beneficios para la piel.\n\n• 50 g aprox. — $45 MXN\n• 100 g aprox. — $70 MXN",
         "image": "info-adicional-formulas-especiales.jpg"
+      }
+    ]
+  },
+  "delivery": {
+    "menuTitle": "Opciones de entrega",
+    "screenTitle": "Opciones de entrega",
+    "intro": "Elige cómo quieres recibir tu pedido. Aquí te contamos cómo funciona cada opción.",
+    "home": {
+      "enabled": true,
+      "title": "Entrega a domicilio",
+      "body": "Coordinamos contigo por WhatsApp la dirección, el día de entrega y el costo según tu zona.",
+      "image": ""
+    },
+    "parcel": {
+      "enabled": true,
+      "title": "Envío por paquetería",
+      "body": "Enviamos tu pedido por paquetería. Coordinamos contigo por WhatsApp los datos de envío, la paquetería y el costo.",
+      "image": ""
+    },
+    "pickup-points": [
+      { 
+        "id": "kowi-concept-store", 
+        "name": "Kowi Concept Store", 
+        "address": "Av. Panorama 218, Panorama, 37160 León de los Aldama, Gto.", 
+        "hours": "Lunes a Viernes, de 12-8p.m.<BR>Sábados de 10a.m.-6p.m.<BR>Domingos Cerrado", 
+        "phone": "477 797 1788",
+        "mapsUrl": "https://maps.app.goo.gl/wLE6bfi4jrPE2c4c6", 
+        "pickupNote": "✓ Entrega a domicilio<BR>✓ Retiro en tienda<BR>✓ Compras en tienda", 
+        "primaryImage": "kowi-concept-store.png",
+        "secondaryImages": ["_01.png", "_02.png", "_03.png"], 
+        "enabled": true 
+      },
+      { 
+        "id": "boho-concept-store", 
+        "name": "BOHO Wellness & beauty", 
+        "address": "Av. Panorama 623, Panorama, 37160 León de los Aldama, Gto.", 
+        "hours": "Lunes a Viernes, de 9a.m.-6p.m.<BR>Sábados de 9a.m.-3p.m.<BR>Domingos Cerrado", 
+        "phone": "",
+        "mapsUrl": "https://maps.app.goo.gl/N88Ug5BCqNsQLQ3N8", 
+        "pickupNote": "✓ Se recomienda concertar cita", 
+        "primaryImage": "boho-concept-store.png", 
+        "secondaryImages": ["_01.png"],
+        "enabled": true 
+      },
+      { 
+        "id": "gto-en-colores", 
+        "name": "Guanajuato en Colores Concept Store", 
+        "address": "Calle de Alonso 26-A, Colonia centro, Zona Centro, 36000 Guanajuato, Gto.", 
+        "hours": "Todos los días, de 9a.m.-9p.m.", 
+        "phone": "473 163 4634",
+        "mapsUrl": "https://maps.app.goo.gl/KyYWPSxsq8FxKJPt9", 
+        "pickupNote": "✓ Tienda de recuerdos<BR>✓ Visita rápida", 
+        "primaryImage": "gto-en-colores.png", 
+        "secondaryImages": ["_01.png", "_02.png"],
+        "enabled": true 
       }
     ]
   },
