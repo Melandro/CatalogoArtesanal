@@ -1,4 +1,5 @@
 {
   "catalogVersion": 1,
-  "catalogUrl": "CatalogoArtesanal/catalog.json"
+  "catalogUrl": "CatalogoArtesanal/catalog.json",
+  "ordersEndpoint": "https://script.google.com/macros/s/AKfycbyz5mYwLNDQvC5hnEcidyFqBM7vwRjThqCoSeJASbWw5-wnj4FPzRjFz_Kj2MGZWdeP/exec"
 }
