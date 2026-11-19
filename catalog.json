@@ -1,22 +1,98 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 1,
-  "versionName": "1.1.0.20261109",
+  "catalogVersion": 2,
+  "versionName": "1.2.0.20261119",
   "business": {
     "name": "Carolina Miel y Sábila",
     "currency": "MXN",
     "source": "Datos de nombre, descripción e imagen obtenidos de las páginas públicas de https://www.carolinamielysabila.com. Los precios no están disponibles públicamente y quedan pendientes de verificación con el negocio."
   },
   "show-in-home": [ "jabon-infalible", "jabon-de-miel-y-lavanda", "jabon-de-sabila", "jabon-de-matcha-con-miel", "jabon-cafe-con-miel", "aceite-relajante" ],
+  "molds": [
+    { "id": "cuadrado-relieve-100grs", "name": "Base cuadrada con hoja en relieve", "grams": 100, "image": "cuadrado-relieve-100grs.jpg" },
+    { "id": "flor-1-65grs", "name": "Flor compacta", "grams": 65, "image": "flor-1-65grs.jpg" },
+    { "id": "flor-1-75grs", "name": "Molinete", "grams": 75, "image": "flor-1-75grs.jpg" },
+    { "id": "flor-20grs", "name": "Rosa compacta", "grams": 20, "image": "flor-20grs.jpg" },
+    { "id": "flor-2-65grs", "name": "Rosa compacta", "grams": 65, "image": "flor-2-65grs.jpg" },
+    { "id": "flor-2-75grs", "name": "Tulipán de tres pétalos", "grams": 75, "image": "flor-2-75grs.jpg" },
+    { "id": "flor-3-65grs", "name": "Flor tipo estrella", "grams": 65, "image": "flor-3-65grs.jpg" },
+    { "id": "flor-4-65grs", "name": "Flor tipo margarita", "grams": 65, "image": "flor-4-65grs.jpg" },
+    { "id": "flor-relieve-1-90grs", "name": "Base redonda con flor en relieve", "grams": 90, "image": "flor-relieve-1-90grs.jpg" },
+    { "id": "flor-relieve-2-90grs", "name": "Base redonda flores pequeñas", "grams": 90, "image": "flor-relieve-2-90grs.jpg" },
+    { "id": "flor-relieve-3-90grs", "name": "Base redonda con otra flor en relieve", "grams": 90, "image": "flor-relieve-3-90grs.jpg" },
+    { "id": "flor-relieve-4-90grs", "name": "Base redonda rama en relieve", "grams": 90, "image": "flor-relieve-4-90grs.jpg" },
+    { "id": "masajeador-130grs", "name": "Óvalo masajeador", "grams": 130, "image": "masajeador-130grs.jpg", "price": 120 },
+    { "id": "ovalado-20grs", "name": "Óvalo pequeño", "grams": 20, "image": "ovalado-20grs.jpg" },
+    { "id": "ovalado-relieve-100grs", "name": "Base ovalada con hoja en relieve", "grams": 100, "image": "ovalado-relieve-100grs.jpg" },
+    { "id": "panal-65grs", "name": "Hexágono", "grams": 65, "image": "panal-65grs.jpg" },
+    { "id": "rectangulo-liso-100grs", "name": "Base rectangular sin relieve", "grams": 100, "image": "rectangulo-liso-100grs.jpg" },
+    { "id": "rectangulo-relieve-100grs", "name": "Rectángulo con ondas", "grams": 100, "image": "rectangulo-relieve-100grs.jpg" },
+    { "id": "redondo-50grs", "name": "Disco redondo liso", "grams": 50, "image": "redondo-50grs.jpg" },
+    { "id": "redondo-relieve-130grs", "name": "Redondo relieve", "grams": 130, "image": "redondo-relieve-130grs.jpg", "price": 100 },
+    { "id": "relajante-100grs", "name": "Mano de Fátima", "grams": 100, "image": "relajante-100grs.jpg", "explicitOnly": true },
+    { "id": "rodaja-citrico-100grs", "name": "Redondo rodaja naranja", "grams": 100, "image": "rodaja-citrico-100grs.jpg", "explicitOnly": true },
+    { "id": "arbolito-50grs", "name": "Arbolito Navidad", "grams": 50, "image": "arbolito-50grs.jpg", "explicitOnly": true },
+    { "id": "santa-claus-50grs", "name": "Santa Claus", "grams": 50, "image": "santa-claus-50grs.jpg", "explicitOnly": true },
+    { "id": "campana-50grs", "name": "Campana Navideña", "grams": 50, "image": "campana-50grs.jpg", "explicitOnly": true },
+    { "id": "bota-50grs", "name": "Bota Navideña", "grams": 50, "image": "bota-50grs.jpg", "explicitOnly": true },
+    { "id": "estrella-80grs", "name": "Estrella Navideña", "grams": 80, "image": "estrella-80grs.jpg", "explicitOnly": true },
+    { "id": "copo-nieve-80grs", "name": "Copo de Nieve", "grams": 80, "image": "copo-nieve-80grs.jpg", "explicitOnly": true },
+    { "id": "baston-10grs", "name": "Bastón navideño", "grams": 10, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "arbolito-15grs", "name": "Arbolito", "grams": 15, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "copo-nieve-15grs", "name": "Copo de nieve", "grams": 15, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "muneco-jengibre-15grs", "name": "Muñeco de jengibre", "grams": 15, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "regalo-15grs", "name": "Regalo", "grams": 15, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "muneco-nieve-15grs", "name": "Muñeco de nieve", "grams": 15, "image": "varios-navidad-20grs.jpg", "explicitOnly": true },
+    { "id": "santa-claus-20grs", "name": "Santa Claus", "grams": 20, "image": "varios-navidad-20grs.jpg", "explicitOnly": true }
+  ],
+  "priceLists": [
+    {
+      "id": "infalible",
+      "tiers": [
+        { "grams": [20, 20], "price": 30, "onRequest": true },
+        { "grams": [50, 50], "price": 45 },
+        { "grams": [65, 65], "price": 55 },
+        { "grams": [75, 75], "price": 55 },
+        { "grams": [100, 100], "price": 70 }
+      ]
+    },
+    {
+      "id": "purificantes-revitalizantes",
+      "tiers": [
+        { "grams": [65, 65], "price": 50 },
+        { "grams": [75, 75], "price": 70 },
+        { "grams": [100, 100], "price": 100 }
+      ]
+    },
+    {
+      "id": "relajantes-hidratantes",
+      "tiers": [
+        { "grams": [65, 65], "price": 50 },
+        { "grams": [75, 75], "price": 70 },
+        { "grams": [90, 90], "price": 80 },
+        { "grams": [100, 100], "price": 100 }
+      ]
+    },
+    {
+      "id": "navidad",
+      "tiers": [
+        { "grams": [10, 10], "price": 8 },
+        { "grams": [15, 15], "price": 12 },
+        { "grams": [20, 20], "price": 16 },
+        { "grams": [50, 50], "price": 50 },
+        { "grams": [80, 80], "price": 70 }
+      ]
+    }
+  ],
   "taxonomy": [
     {
       "id": "jabones",
       "display": "Jabones",
       "subcategories": [
         { "id": "artesanales", "display": "Artesanales" },
-        { "id": "infalible", "display": "Infalible" },
-        { "id": "purificantes-revitalizantes", "display": "Purificantes & revitalizantes" },
-        { "id": "relajantes-hidratantes", "display": "Relajantes & hidratantes" }
+        { "id": "infalible", "display": "Infalible", "priceList": "infalible" },
+        { "id": "purificantes-revitalizantes", "display": "Purificantes & revitalizantes", "priceList": "purificantes-revitalizantes" },
+        { "id": "relajantes-hidratantes", "display": "Relajantes & hidratantes", "priceList": "relajantes-hidratantes" }
       ]
     },
     {
@@ -33,6 +109,13 @@
       "id": "balsamos",
       "display": "Bálsamos",
       "subcategories": []
+    },
+    {
+      "id": "navidad",
+      "display": "Navidad",
+      "availability": { "from": "2026-11-15", "until": "2027-01-06" },
+      "priceList": "navidad",
+      "subcategories": []
     }
   ],
   "products": [
@@ -47,6 +130,7 @@
       "discountMinQty": 0,
       "categoryId": "jabones",
       "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "priceList": "infalible",
       "primaryImage": "jabon-infalible.jpg",
       "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg"]
     },
@@ -61,6 +145,7 @@
       "discountMinQty": 0,
       "categoryId": "jabones",
       "subcategoryId": ["artesanales"],
+      "molds": [],
       "primaryImage": "racimo-de-uvas-de-miel.jpg",
       "secondaryImages": ["_01.jpg", "_02.jpg", "_03.jpg", "_04.jpg", "_05.jpg", "_06.jpg", "_07.jpg", "_08.jpg", "_09.jpg", "_10.jpg", "_11.jpg", "_12.jpg"]
     },
@@ -215,6 +300,7 @@
       "discountMinQty": 0,
       "categoryId": "jabones",
       "subcategoryId": ["relajantes-hidratantes"],
+      "molds": [],
       "primaryImage": "suero-facial-aclarante.jpg",
       "secondaryImages": []
     },
@@ -223,7 +309,7 @@
       "name": "Jabón de Matcha con Lemongrass y sábila",
       "title": "🍃 Energiza y purifica tu piel",
       "description": "Hecho con té matcha natural, miel y aceite esencial de lemongrass, este jabón artesanal es ideal para revitalizar la piel y estimular los sentidos.<BR>El matcha es un potente antioxidante que ayuda a combatir los radicales libres y mejorar la textura de la piel, mientras que el lemongrass aporta una limpieza profunda y efecto refrescante que deja la piel suave y luminosa.<BR>Su aroma cítrico y herbal despierta la energía y el buen ánimo cada mañana.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -237,7 +323,7 @@
       "name": "Jabón de Miel y Bergamota",
       "title": "🍊 – Equilibra y purifica la piel",
       "description": "Elaborado con miel natural y aceite esencial de bergamota, este jabón artesanal combina hidratación profunda con acción astringente y antiséptica.<BR>La miel suaviza y nutre la piel, mientras que la bergamota ayuda a regular el exceso de grasa, limpiar los poros y aportar luminosidad natural.<BR>Su aroma cítrico y relajante transforma cada baño en una experiencia fresca y revitalizante.<BR>Ideal para pieles mixtas o con tendencia grasa.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -251,12 +337,13 @@
       "name": "Jabón infalible con Almendras",
       "title": "💫 – Limpieza profunda y nutrición total",
       "description": "La nueva versión Plus de tu jabón más querido.<BR>El Jabón Infalible con Almendras está elaborado con miel natural, sábila, aceite esencial de árbol de té, extracto de almendra y polvo de almendra fina, para ofrecer una limpieza profunda sin resecar la piel.<BR>Sus ingredientes naturales ayudan a controlar el acné, eliminar impurezas y calmar irritaciones, mientras las almendras aportan vitamina E, suavidad y un toque de exfoliación delicada.<BR>Ideal para pieles mixtas o grasas que buscan equilibrio, hidratación y frescura natural.",
-      "price": 60.00,
+      "price": 45.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
       "categoryId": "jabones",
       "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "priceList": "infalible",
       "primaryImage": "jabon-infalible-con-almendras.jpg",
       "secondaryImages": ["_01.jpg"]
     },
@@ -265,12 +352,13 @@
       "name": "Jabón Lavanda, miel y sábila",
       "title": "Hidrata, suaviza y mejora la elasticidad.",
       "description": "La miel y la sábila renuevan la piel,<BR>y la lavanda aporta un efecto calmante y reparador.",
-      "price": 60.00,
+      "price": 45.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
       "categoryId": "jabones",
       "subcategoryId": ["infalible", "purificantes-revitalizantes"],
+      "priceList": "infalible",
       "primaryImage": "jabon-lavanda-miel-y-sabila.jpg",
       "secondaryImages": ["_01.jpg"]
     },
@@ -279,7 +367,7 @@
       "name": "Jabón de Café con Miel",
       "title": "Exfolia suavemente y activa la circulación.",
       "description": "La miel hidrata y deja la piel suave, con un efecto revitalizante natural. <BR><i>Uso preferente por la mañana (revitaliza).</i>",
-      "price": 55.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -293,7 +381,7 @@
       "name": "Jabón de Matcha con Miel",
       "title": "Antioxidante, iluminador e hidratante.",
       "description": "Reduce la inflamación y calma la piel, aporta luminosidad y mejora el tono, e hidrata profundamente gracias a la miel. Ayuda a minimizar poros y a equilibrar la grasa, y protege contra los radicales libres.<BR><BR>Ideal para uso diario en rostro y cuerpo.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -307,7 +395,7 @@
       "name": "Jabón Carbón Détox 50 gr.",
       "title": "Un jabón natural que limpia profundamente",
       "description": "Regula el exceso de grasa y ayuda a mantener la piel fresca y libre de impurezas. Ideal para cutis graso o mixto, aporta una sensación de limpieza duradera sin resecar.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": false,
       "discountMinQty": 0,
@@ -315,14 +403,14 @@
       "subcategoryId": ["purificantes-revitalizantes"],
       "primaryImage": "jabon-carbon-detox.jpg",
       "secondaryImages": ["_01.jpg"],
-      "availability": { "from": "2026-10-01", "until": "2026-11-15" }
+      "availability": { "from": "2026-10-01", "until": "2027-02-28" }
     },
     {
       "id": "jabon-after-shave-plus-con-romero",
       "name": "Jabón After Shave Plus con Romero",
       "title": "🌿 Refresca y regenera la piel",
       "description": "Un jabón artesanal formulado con miel natural, sábila fresca, romero y aceite esencial de romero.<BR>Diseñado especialmente para calmar e hidratar la piel después del afeitado, ayudando a prevenir irritaciones y enrojecimientos.<BR>El romero actúa como un antiséptico y tonificante natural, la sábila regenera y suaviza, y la miel hidrata en profundidad, dejando una piel fresca, limpia y con un aroma herbal muy agradable.<BR>Ideal para el cuidado diario del rostro o cuerpo.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -336,7 +424,7 @@
       "name": "Jabón de Sábila con Lemongrass",
       "title": "Refresca y purifica la piel.",
       "description": "La sábila calma e hidrata,<BR>y el Lemongrass aporta limpieza y frescura natural.",
-      "price": 60.00,
+      "price": 50.00,
       "priceStatus": "verified",
       "applyDiscount": true,
       "discountMinQty": 0,
@@ -512,6 +600,77 @@
       "subcategoryId": null,
       "primaryImage": "manteca-de-mango.jpg",
       "secondaryImages": []
+    },
+    {
+      "id": "figuras-navidenas",
+      "name": "🎄 Figuras navideñas",
+      "description": "Jabones artesanales con forma navideña, ideales para regalar.<BR><BR>• Arbolito, Santa Claus, campana y bota: 50 g aprox.<BR>• Estrella y copo de nieve: 80 a 85 g aprox.<BR><BR>Elige tu figura y agrégala a tu pedido.",
+      "price": 50.00,
+      "priceStatus": "verified",
+      "categoryId": "navidad",
+      "subcategoryId": null,
+      "molds": ["arbolito-50grs", "santa-claus-50grs", "campana-50grs", "bota-50grs", "estrella-80grs", "copo-nieve-80grs"],
+      "primaryImage": "figuras-navidenas.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "figuritas-navidenas",
+      "name": "🎅 Figuritas navideñas pequeñas",
+      "description": "Figuritas navideñas pequeñas, ideales para detalles y regalos. Se venden por pieza:<BR><BR>• Bastón navideño: 7 a 10 g<BR>• Arbolito, copo de nieve, muñeco de jengibre, regalo y muñeco de nieve: 12 a 15 g<BR>• Santa Claus: 18 a 20 g<BR><BR>Elige las figuras que quieras y agrégalas a tu pedido.",
+      "price": 8.00,
+      "priceStatus": "verified",
+      "categoryId": "navidad",
+      "subcategoryId": null,
+      "molds": ["baston-10grs", "arbolito-15grs", "copo-nieve-15grs", "muneco-jengibre-15grs", "regalo-15grs", "muneco-nieve-15grs", "santa-claus-20grs"],
+      "primaryImage": "figuritas-navidenas.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "kit-navideno-2-jabones",
+      "name": "🎁 Kit navideño de 2 jabones",
+      "description": "Cajita de regalo con 2 jabones navideños de 50 g aprox. cada uno.<BR><BR>Elige tus 2 figuras: arbolito, Santa Claus, campana o bota (puedes repetir la misma).",
+      "price": 100.00,
+      "priceStatus": "verified",
+      "categoryId": "navidad",
+      "subcategoryId": null,
+      "slots": [
+        { "label": "Figura 1", "molds": ["arbolito-50grs", "santa-claus-50grs", "campana-50grs", "bota-50grs"] },
+        { "label": "Figura 2", "molds": ["arbolito-50grs", "santa-claus-50grs", "campana-50grs", "bota-50grs"] }
+      ],
+      "primaryImage": "kit-navideno-2-jabones.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "kit-navideno-3-jabones",
+      "name": "🎁 Kit navideño de 3 jabones",
+      "description": "Caja de regalo con 3 jabones navideños, 180 g aprox. en total.<BR><BR>Elige 2 figuras de 50 g (arbolito, Santa Claus, campana o bota) y 1 figura de 80 g (estrella o copo de nieve). Puedes repetir la misma figura.",
+      "price": 170.00,
+      "priceStatus": "verified",
+      "categoryId": "navidad",
+      "subcategoryId": null,
+      "slots": [
+        { "label": "Figura 1 (50 g)", "molds": ["arbolito-50grs", "santa-claus-50grs", "campana-50grs", "bota-50grs"] },
+        { "label": "Figura 2 (50 g)", "molds": ["arbolito-50grs", "santa-claus-50grs", "campana-50grs", "bota-50grs"] },
+        { "label": "Figura 3 (80 g)", "molds": ["estrella-80grs", "copo-nieve-80grs"] }
+      ],
+      "primaryImage": "kit-navideno-3-jabones.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "kit-navideno-figuritas",
+      "name": "🎁 Kit de 3 figuritas navideñas",
+      "description": "Cajita con 3 figuritas navideñas pequeñas a tu elección: bastón navideño, arbolito, copo de nieve, muñeco de jengibre, regalo o muñeco de nieve (puedes repetir la misma).",
+      "price": 30.00,
+      "priceStatus": "verified",
+      "categoryId": "navidad",
+      "subcategoryId": null,
+      "slots": [
+        { "label": "Figura 1", "molds": ["baston-10grs", "arbolito-15grs", "copo-nieve-15grs", "muneco-jengibre-15grs", "regalo-15grs", "muneco-nieve-15grs"] },
+        { "label": "Figura 2", "molds": ["baston-10grs", "arbolito-15grs", "copo-nieve-15grs", "muneco-jengibre-15grs", "regalo-15grs", "muneco-nieve-15grs"] },
+        { "label": "Figura 3", "molds": ["baston-10grs", "arbolito-15grs", "copo-nieve-15grs", "muneco-jengibre-15grs", "regalo-15grs", "muneco-nieve-15grs"] }
+      ],
+      "primaryImage": "kit-navideno-figuritas.jpg",
+      "secondaryImages": []
     }
   ],
   "promotions": [
@@ -537,7 +696,7 @@
       "slides": [
         { "src": "promotions/VID-20261104-WA0001.mp4",
           "action": { "type": "product", "id": "racimo-de-uvas-de-miel" },
-          "cta": "Ver el racimos" },
+          "cta": "Ver racimos" },
         { "src": "promotions/VID-20261104-WA0002.mp4" }
       ]
     }
@@ -629,7 +788,7 @@
         "enabled": true 
       }
     ]
-  },
+  },  
   "contact-us": {
     "menuTitle": "Contacto",
     "screenTitle": "Contacto",
