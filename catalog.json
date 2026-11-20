@@ -1000,6 +1000,38 @@
       "secondaryImages": []
     },
     {
+      "id": "serenidad",
+      "name": "🌿 Serenidad",
+      "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Serenidad es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de lavanda, manzanilla, cedro y vetiver, creada para despertar la alegría, suavizar el ánimo y reconectar con el placer de los pequeños momentos.<BR>Su aroma es cítrico, cálido y ligeramente terroso, ideal para generar una sensación de bienestar, optimismo y armonía emocional.<BR>Perfecta para usar en difusor, rituales de gratitud o para llenar tus espacios de una energía luminosa y reconfortante.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y fomenta la alegría y el optimismo<BR>- Ayuda a reducir la tensión emocional<BR>- Aporta ligereza y claridad emocional<BR>🍊 Naranja:<BR>- Aceite alegre y reconfortante<BR>- Promueve sensaciones de bienestar, calidez y tranquilidad<BR>- Ideal para liberar estrés y crear ambientes positivos<BR>🌿 Pachuli:<BR>- Profundamente enraizante y equilibrante<BR>- Ayuda a estabilizar emociones y dar sensación de seguridad<BR>- Aporta profundidad y contención emocional a la mezcla",
+      "price": 200,
+      "priceStatus": "verified",
+      "applyDiscount": false,
+      "discountMinQty": 0,
+      "categoryId": [
+        "aceites-con-proposito"
+      ],
+      "subcategoryId": null,
+      "primaryImage": "serenidad.jpg",
+      "secondaryImages": []
+    },
+    {
+      "id": "respira",
+      "name": "🌿 Respira",
+      "title": "Sinergia de Aromaterapia · 10 ml",
+      "description": "Respira es una sinergia de aromaterapia elaborada con aceites esenciales orgánicos de eucalipto, menta, ciiprés e incienso, creada para despertar la alegría, suavizar el ánimo y reconectar con el placer de los pequeños momentos.<BR>Su aroma es cítrico, cálido y ligeramente terroso, ideal para generar una sensación de bienestar, optimismo y armonía emocional.<BR>Perfecta para usar en difusor, rituales de gratitud o para llenar tus espacios de una energía luminosa y reconfortante.<BR>🌱 ¿Para qué sirve cada ingrediente?<BR>🍊 Bergamota:<BR>- Eleva el estado de ánimo y fomenta la alegría y el optimismo<BR>- Ayuda a reducir la tensión emocional<BR>- Aporta ligereza y claridad emocional<BR>🍊 Naranja:<BR>- Aceite alegre y reconfortante<BR>- Promueve sensaciones de bienestar, calidez y tranquilidad<BR>- Ideal para liberar estrés y crear ambientes positivos<BR>🌿 Pachuli:<BR>- Profundamente enraizante y equilibrante<BR>- Ayuda a estabilizar emociones y dar sensación de seguridad<BR>- Aporta profundidad y contención emocional a la mezcla",
+      "price": 200,
+      "priceStatus": "verified",
+      "applyDiscount": false,
+      "discountMinQty": 0,
+      "categoryId": [
+        "aceites-con-proposito"
+      ],
+      "subcategoryId": null,
+      "primaryImage": "respira.jpg",
+      "secondaryImages": []
+    },
+    {
       "id": "manteca-de-camote-barbasco",
       "name": "🧈 Manteca de Camote Barbasco",
       "title": "Equilibrio, nutrición y bienestar para tu piel",
@@ -1180,7 +1212,8 @@
           "label": "Figura 3 (80 g)",
           "molds": [
             "estrella-80grs",
-            "copo-nieve-80grs"
+            "copo-nieve-80grs",
+            "estrella-bis-80grs"
           ]
         }
       ],
