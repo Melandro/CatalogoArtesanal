@@ -195,6 +195,13 @@
       "explicitOnly": true
     },
     {
+      "id": "estrella-bis-80grs",
+      "name": "Estrella Navideña Grande",
+      "grams": 80,
+      "image": "estrella-bis-80grs.jpg",
+      "explicitOnly": true
+    },
+    {
       "id": "baston-10grs",
       "name": "Bastón navideño",
       "grams": 10,
