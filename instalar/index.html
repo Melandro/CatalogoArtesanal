@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#5b1a7a">
+<title>Instalar el catálogo · Miel y Sábila</title>
+<style>
+  :root { --morado:#5b1a7a; --miel:#e8a317; --crema:#fbf1e6; --texto:#2b2230; --suave:#6b5f73; --borde:#e7d9c9; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--texto); background:var(--crema); line-height:1.5; }
+  main { max-width: 640px; margin: 0 auto; padding: 0 16px 48px; }
+  header { text-align:center; padding: 28px 8px 12px; }
+  header .marca { font-size: 44px; line-height:1; }
+  h1 { margin: 8px 0 4px; font-size: 26px; color: var(--morado); }
+  header p { margin: 0; color: var(--suave); }
+  .tarjeta { background:#fff; border:1px solid var(--borde); border-radius:16px; padding:18px; margin-top:16px; }
+  .descarga { text-align:center; }
+  .boton { display:inline-block; width:100%; max-width:420px; padding:16px 20px; border-radius:14px; background:var(--morado); color:#fff;
+           font-size:18px; font-weight:600; text-decoration:none; border:0; cursor:pointer; }
+  .boton[aria-disabled="true"] { background:#b9aec1; pointer-events:none; }
+  .boton.secundario { background:#fff; color:var(--morado); border:2px solid var(--morado); font-size:16px; padding:12px 16px; }
+  .version { margin:10px 0 0; font-size:14px; color:var(--suave); }
+  .aviso { border-radius:12px; padding:12px 14px; margin-top:16px; font-size:15px; }
+  .aviso.chrome { background:#fff4d6; border:1px solid #f0cf7a; }
+  .aviso.noandroid { background:#f1e8f7; border:1px solid #d9c3e6; }
+  h2 { font-size:20px; color:var(--morado); margin:28px 0 4px; }
+  ol.pasos { list-style:none; counter-reset:paso; padding:0; margin:12px 0 0; }
+  ol.pasos li { counter-increment:paso; position:relative; padding: 14px 14px 14px 58px; background:#fff; border:1px solid var(--borde); border-radius:14px; margin-bottom:10px; }
+  ol.pasos li::before { content:counter(paso); position:absolute; left:14px; top:14px; width:32px; height:32px; border-radius:50%; background:var(--miel); color:#3a2a00;
+                        font-weight:700; display:flex; align-items:center; justify-content:center; }
+  ol.pasos li strong { display:block; margin-bottom:2px; }
+  ol.pasos li p { margin:4px 0 0; color:var(--suave); font-size:15px; }
+  figure { margin:10px 0 0; }
+  figure img { width:100%; max-width:300px; border-radius:10px; border:1px solid var(--borde); display:block; }
+  details { background:#fff; border:1px solid var(--borde); border-radius:14px; margin-bottom:10px; padding:2px 14px; }
+  summary { cursor:pointer; padding:12px 0; font-weight:600; }
+  details p, details ul, details ol { margin:0 0 12px; color:var(--suave); font-size:15px; }
+  details ul, details ol { padding-left:20px; }
+  .seguro li { margin-bottom:6px; }
+  footer { text-align:center; margin-top:28px; color:var(--suave); font-size:14px; }
+  footer a { color:var(--morado); }
+  .oculto { display:none !important; }
+  code { background:#f3ece2; padding:1px 5px; border-radius:5px; font-size:13px; word-break:break-all; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="marca" aria-hidden="true">🍯🌿</div>
+    <h1>Catálogo Miel y Sábila</h1>
+    <p>Jabones, aceites y cremas artesanales · León, Guanajuato</p>
+  </header>
+
+  <!-- Avisos según el aparato: se muestran con el script de abajo. -->
+  <div id="aviso-navegador" class="aviso chrome oculto">
+    <strong>Ábrelo en Chrome.</strong> Este navegador (el de WhatsApp, Facebook o Instagram) suele bloquear las descargas.
+    Toca los tres puntos ⋮ y elige «Abrir en el navegador», o copia el enlace y pégalo en Chrome.
+    <p style="margin:10px 0 0"><button class="boton secundario" id="copiar" type="button">Copiar enlace</button></p>
+  </div>
+  <div id="aviso-no-android" class="aviso noandroid oculto">
+    <strong>Esta aplicación es solo para teléfonos Android.</strong>
+    Si estás en una computadora o en un iPhone, abre este mismo enlace desde un teléfono Android:
+    <p style="margin:8px 0 0"><code id="enlace-pagina"></code></p>
+  </div>
+
+  <section class="tarjeta descarga" id="descarga">
+    <a id="boton-descarga" class="boton" href="#" aria-disabled="true">Descargar la aplicación</a>
+    <p class="version" id="version">Buscando la versión más reciente…</p>
+  </section>
+
+  <h2>Cómo instalarla</h2>
+  <p style="margin:0;color:var(--suave)">Son cuatro pasos y toma un par de minutos. Solo se hace la primera vez.</p>
+  <ol class="pasos">
+    <li>
+      <strong>Descarga el archivo</strong>
+      <p>Toca «Descargar la aplicación». Si Chrome dice que <em>«este tipo de archivo puede dañar tu dispositivo»</em>, es un aviso que sale con cualquier aplicación que no viene de Play Store: toca <b>Descargar de todos modos</b> (o «Conservar»).</p>
+      <figure><img src="capturas/paso-1.jpg" alt="Aviso de Chrome al descargar" onerror="this.parentNode.remove()"></figure>
+    </li>
+    <li>
+      <strong>Ábrelo</strong>
+      <p>Cuando termine, toca <b>Abrir</b> en el aviso de descarga, o busca el archivo <code>.apk</code> en tu carpeta de Descargas.</p>
+    </li>
+    <li>
+      <strong>Permite la instalación (solo la primera vez)</strong>
+      <p>Android te preguntará si permites instalar aplicaciones desde Chrome. Toca <b>Configuración</b>, activa <b>Permitir de esta fuente</b> y regresa con la flecha ←.</p>
+      <figure><img src="capturas/paso-3.jpg" alt="Permiso para instalar aplicaciones" onerror="this.parentNode.remove()"></figure>
+    </li>
+    <li>
+      <strong>Instala</strong>
+      <p>Toca <b>Instalar</b>. Si Google Play Protect muestra <em>«aplicación no verificada»</em>, toca <b>Más detalles</b> y luego <b>Instalar de todos modos</b>. Al terminar, toca <b>Abrir</b>.</p>
+      <figure><img src="capturas/paso-4.jpg" alt="Aviso de Play Protect" onerror="this.parentNode.remove()"></figure>
+    </li>
+  </ol>
+
+  <h2>¿No te deja instalar?</h2>
+  <details>
+    <summary>Mi Samsung dice que está bloqueado (Auto Blocker)</summary>
+    <p>Algunos Samsung nuevos traen <b>Auto Blocker</b>, que impide instalar aplicaciones que no vienen de una tienda. Puedes desactivarlo mientras instalas y volver a activarlo después:</p>
+    <ol>
+      <li>Abre <b>Ajustes</b> → <b>Seguridad y privacidad</b> → <b>Auto Blocker</b>.</li>
+      <li>Apaga <b>Auto Blocker</b> (o la opción que bloquea instalaciones de orígenes desconocidos).</li>
+      <li>Vuelve a abrir el archivo descargado e instala.</li>
+    </ol>
+    <figure><img src="capturas/auto-blocker.jpg" alt="Ajuste Auto Blocker" onerror="this.parentNode.remove()"></figure>
+    <p>El nombre exacto puede variar un poco según el modelo.</p>
+  </details>
+  <details>
+    <summary>No me salió el permiso para instalar</summary>
+    <p>Ve a <b>Ajustes</b> → <b>Aplicaciones</b> → <b>Chrome</b> → <b>Instalar apps desconocidas</b> y activa <b>Permitir de esta fuente</b>. Después vuelve a abrir el archivo descargado.</p>
+  </details>
+  <details>
+    <summary>Play Protect me avisa que es peligrosa</summary>
+    <p>Play Protect avisa de toda aplicación que no está en Play Store, aunque sea segura. Toca <b>Más detalles</b> → <b>Instalar de todos modos</b>. Si prefieres, también puedes elegir «No enviar» cuando pregunte si quiere analizarla.</p>
+  </details>
+  <details>
+    <summary>No encuentro el archivo que descargué</summary>
+    <p>Abre la app <b>Archivos</b> (o «Mis archivos») → <b>Descargas</b> y busca el archivo que termina en <code>.apk</code>. Tócalo para instalar.</p>
+  </details>
+  <details>
+    <summary>La aplicación abre sin fotos</summary>
+    <p>La primera vez necesita conexión a internet para descargar las fotos. Ábrela con Wi-Fi o datos y espera unos segundos; después quedan guardadas en tu teléfono.</p>
+  </details>
+  <details>
+    <summary>¿Cómo la actualizo?</summary>
+    <p>La propia aplicación te avisa cuando hay una versión nueva. Tócala, descarga e instala <b>encima</b>, sin desinstalar la anterior: no pierdes nada. También puedes volver a esta página y descargar la última versión.</p>
+  </details>
+
+  <h2>¿Es segura?</h2>
+  <div class="tarjeta seguro">
+    <ul style="margin:0;padding-left:20px">
+      <li>La aplicación es del negocio <b>Carolina Miel y Sábila</b>; esta página y el archivo están en su sitio oficial.</li>
+      <li>Solo pide un permiso: <b>acceso a internet</b> (para ver el catálogo y enviar pedidos). No pide cámara, ubicación, contactos ni archivos.</li>
+      <li>Está firmada: Android solo acepta actualizaciones que vengan del mismo autor.</li>
+      <li>Descárgala solo desde esta página. No uses archivos que te manden por otros medios.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>¿Necesitas ayuda? <a id="ayuda" href="https://wa.me/524776461444?text=Hola%2C%20necesito%20ayuda%20para%20instalar%20la%20aplicaci%C3%B3n%20del%20cat%C3%A1logo" rel="noopener">Escríbenos por WhatsApp</a></p>
+    <p>Miel y Sábila · Jabón artesanal Carolina</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var ua = navigator.userAgent || '';
+  var esAndroid = /Android/i.test(ua);
+  // Navegadores integrados de apps (Facebook, Instagram, Messenger, TikTok, Line) y WebView de Android.
+  var integrado = /FBAN|FBAV|FB_IAB|Instagram|Messenger|TikTok|Line\/|; wv\)/i.test(ua);
+
+  var enlace = location.origin + location.pathname;
+  document.getElementById('enlace-pagina').textContent = enlace;
+  if (!esAndroid) document.getElementById('aviso-no-android').classList.remove('oculto');
+  else if (integrado) document.getElementById('aviso-navegador').classList.remove('oculto');
+
+  document.getElementById('copiar').addEventListener('click', function () {
+    var b = this;
+    function listo() { b.textContent = '¡Enlace copiado!'; }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(enlace).then(listo, function () { window.prompt('Copia este enlace:', enlace); });
+    else window.prompt('Copia este enlace:', enlace);
+  });
+
+  // La versión y el enlace de descarga salen de config.json (apps.cliente): no hay que editar esta página en cada versión.
+  var boton = document.getElementById('boton-descarga');
+  var texto = document.getElementById('version');
+  var RELEASES = 'https://github.com/Melandro/CatalogoArtesanal/releases/latest';
+
+  function sinDescarga(mensaje) {
+    boton.textContent = 'Ver descargas';
+    boton.href = RELEASES;
+    boton.setAttribute('aria-disabled', 'false');
+    texto.textContent = mensaje;
+  }
+
+  fetch('../config.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (cfg) {
+      var app = cfg && cfg.apps && cfg.apps.cliente;
+      if (!app || !app.downloadUrl || !/^https:\/\//.test(app.downloadUrl)) { sinDescarga('La descarga estará disponible muy pronto.'); return; }
+      boton.href = app.downloadUrl;
+      boton.setAttribute('aria-disabled', 'false');
+      if (!esAndroid) { boton.setAttribute('aria-disabled', 'true'); }
+      var partes = ['Versión ' + (app.versionName || app.versionCode)];
+      if (app.date) partes.push(app.date);
+      if (app.sizeMB) partes.push(app.sizeMB + ' MB');
+      texto.textContent = partes.join(' · ');
+      if (app.notes) {
+        var n = document.createElement('div');
+        n.style.cssText = 'margin-top:8px;font-size:14px;color:#6b5f73';
+        n.textContent = app.notes;
+        texto.parentNode.appendChild(n);
+      }
+    })
+    .catch(function () { sinDescarga('No se pudo leer la versión. Usa «Ver descargas».'); });
+})();
+</script>
+</body>
+</html>
