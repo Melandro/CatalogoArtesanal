@@ -4,10 +4,10 @@
   "ordersEndpoint": "https://script.google.com/macros/s/AKfycbyz5mYwLNDQvC5hnEcidyFqBM7vwRjThqCoSeJASbWw5-wnj4FPzRjFz_Kj2MGZWdeP/exec",
   "apps": {
     "cliente": {
-      "versionCode": 2,
-      "versionName": "1.0.0",
-      "downloadUrl": "",
-      "notes": "",
+      "versionCode": 4,
+      "versionName": "1.2.0",
+      "downloadUrl": "https://github.com/Melandro/CatalogoArtesanal/releases/latest/download/app-release.apk",
+      "notes": "date (20/11/2026) y sizeMB (12.2)",
       "minVersionCode": 0
     },
     "gestion": {
