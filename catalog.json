@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 3,
-  "versionName": "1.2.0.20261119",
+  "catalogVersion": 4,
+  "versionName": "1.2.0.20261120",
   "business": {
     "name": "Carolina Miel y Sábila",
     "currency": "MXN",
@@ -1125,7 +1125,8 @@
         "campana-50grs",
         "bota-50grs",
         "estrella-80grs",
-        "copo-nieve-80grs"
+        "copo-nieve-80grs",
+        "estrella-bis-80grs"
       ],
       "primaryImage": "figuras-navidenas.jpg",
       "secondaryImages": []
