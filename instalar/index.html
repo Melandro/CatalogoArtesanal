@@ -34,6 +34,8 @@
   ol.pasos li p { margin:4px 0 0; color:var(--suave); font-size:15px; }
   figure { margin:10px 0 0; }
   figure img { width:100%; max-width:300px; border-radius:10px; border:1px solid var(--borde); display:block; }
+  /* Capturas de avisos con esquinas redondeadas (PNG con fondo transparente): sin borde cuadrado, solo una sombra suave. */
+  figure img.redonda { border:0; border-radius:0; filter:drop-shadow(0 1px 5px rgba(0,0,0,.28)); }
   details { background:#fff; border:1px solid var(--borde); border-radius:14px; margin-bottom:10px; padding:2px 14px; }
   summary { cursor:pointer; padding:12px 0; font-weight:600; }
   details p, details ul, details ol { margin:0 0 12px; color:var(--suave); font-size:15px; }
@@ -76,7 +78,7 @@
     <li>
       <strong>Descarga el archivo</strong>
       <p>Toca «Descargar la aplicación». Chrome mostrará el aviso <em>«Es posible que el archivo sea dañino»</em>. Es normal: sale con cualquier aplicación que no viene de Play Store. Toca <b>Descargar de todos modos</b>.</p>
-      <figure><img src="capturas/paso-1.jpg" alt="Aviso de Chrome al descargar" onerror="this.parentNode.remove()"></figure>
+      <figure><img class="redonda" src="capturas/paso-1.png" alt="Aviso de Chrome al descargar" onerror="this.parentNode.remove()"></figure>
     </li>
     <li>
       <strong>Ábrelo</strong>
@@ -84,26 +86,28 @@
     </li>
     <li>
       <strong>Permite la instalación (solo la primera vez)</strong>
-      <p>Android te preguntará si permites instalar aplicaciones desde Chrome. Toca <b>Configuración</b>, activa <b>Permitir de esta fuente</b> y regresa con la flecha ←.</p>
-      <figure><img src="capturas/paso-3.jpg" alt="Permiso para instalar aplicaciones" onerror="this.parentNode.remove()"></figure>
+      <p>El teléfono te dirá que <em>«no tiene permitido instalar apps desconocidas de esta fuente»</em>. Es normal la primera vez. Toca <b>Configuración</b>.</p>
+      <figure><img class="redonda" src="capturas/paso-3.png" alt="Aviso de Chrome: instalar apps desconocidas no permitido" onerror="this.parentNode.remove()"></figure>
+      <p>Activa el interruptor <b>Otorgar permiso</b> (en otros teléfonos se llama «Permitir de esta fuente») y regresa con la flecha ←. Enseguida aparecerá la pregunta <b>«¿Deseas instalar esta app?»</b>: toca <b>Instalar</b>.</p>
+      <figure><img src="capturas/paso-3b.jpg" alt="Interruptor Otorgar permiso y pregunta para instalar" onerror="this.parentNode.remove()"></figure>
     </li>
     <li>
       <strong>Instala</strong>
-      <p>Toca <b>Instalar</b>. Es probable que Google Play Protect muestre <em>«Se recomienda analizar la app»</em> porque todavía no la ha verificado. Toca <b>Analizar app</b>.</p>
-      <figure><img src="capturas/paso-4.jpg" alt="Play Protect: se recomienda analizar la app" onerror="this.parentNode.remove()"></figure>
+      <p>Si te vuelve a preguntar «¿Deseas instalar esta app?», toca <b>Instalar</b>. Es probable que Google Play Protect muestre <em>«Se recomienda analizar la app»</em> porque todavía no la ha verificado. Toca <b>Analizar app</b>.</p>
+      <figure><img class="redonda" src="capturas/paso-4.png" alt="Play Protect: se recomienda analizar la app" onerror="this.parentNode.remove()"></figure>
       <p>En unos segundos dirá <em>«Esta app parece segura»</em>. Toca <b>Instalar</b> y, al terminar, <b>Abrir</b>. <b>No toques «No instalar»</b>.</p>
-      <figure><img src="capturas/paso-4b.jpg" alt="Play Protect: esta app parece segura" onerror="this.parentNode.remove()"></figure>
+      <figure><img class="redonda" src="capturas/paso-4b.png" alt="Play Protect: esta app parece segura" onerror="this.parentNode.remove()"></figure>
       <p>En algunos teléfonos el aviso dice «aplicación no verificada»: toca <b>Más detalles</b> y luego <b>Instalar de todos modos</b>.</p>
     </li>
   </ol>
 
   <h2>¿No te deja instalar?</h2>
   <details>
-    <summary>Mi Samsung dice que está bloqueado (Auto Blocker)</summary>
-    <p>Algunos Samsung nuevos traen <b>Auto Blocker</b>, que impide instalar aplicaciones que no vienen de una tienda. Puedes desactivarlo mientras instalas y volver a activarlo después:</p>
+    <summary>Mi Samsung dice que está bloqueado (Bloqueador automático)</summary>
+    <p>Muchos Samsung nuevos traen el <b>Bloqueador automático</b> (<em>Auto Blocker</em>), que impide instalar aplicaciones que no vienen de una tienda. Puedes desactivarlo mientras instalas y volver a activarlo después:</p>
     <ol>
-      <li>Abre <b>Ajustes</b> → <b>Seguridad y privacidad</b> → <b>Auto Blocker</b>.</li>
-      <li>Apaga <b>Auto Blocker</b> (o la opción que bloquea instalaciones de orígenes desconocidos).</li>
+      <li>Abre <b>Ajustes</b> → <b>Seguridad y privacidad</b> → <b>Bloqueador automático</b>.</li>
+      <li>Apaga el <b>Bloqueador automático</b> (o la opción que bloquea instalaciones de orígenes desconocidos).</li>
       <li>Vuelve a abrir el archivo descargado e instala.</li>
     </ol>
     <figure><img src="capturas/auto-blocker.jpg" alt="Ajuste Auto Blocker" onerror="this.parentNode.remove()"></figure>
@@ -111,7 +115,7 @@
   </details>
   <details>
     <summary>No me salió el permiso para instalar</summary>
-    <p>Ve a <b>Ajustes</b> → <b>Aplicaciones</b> → <b>Chrome</b> → <b>Instalar apps desconocidas</b> y activa <b>Permitir de esta fuente</b>. Después vuelve a abrir el archivo descargado.</p>
+    <p>Ve a <b>Ajustes</b> → <b>Aplicaciones</b> → <b>Chrome</b> → <b>Instalar apps desconocidas</b> y activa <b>Otorgar permiso</b> (o «Permitir de esta fuente»). Después vuelve a abrir el archivo descargado.</p>
   </details>
   <details>
     <summary>Play Protect me pide analizar la app o dice que no está verificada</summary>
