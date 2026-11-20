@@ -7,7 +7,9 @@
       "versionCode": 4,
       "versionName": "1.2.0",
       "downloadUrl": "https://github.com/Melandro/CatalogoArtesanal/releases/latest/download/app-release.apk",
-      "notes": "date (20/11/2026) y sizeMB (12.2)",
+      "notes": "",
+      "date": "20/11/2026",
+      "sizeMB": "12.2",
       "minVersionCode": 0
     },
     "gestion": {
