@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 5,
+  "catalogVersion": 6,
   "versionName": "1.2.0.20261122",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1148,8 +1148,10 @@
         "muneco-nieve-15grs",
         "santa-claus-20grs"
       ],
-      "primaryImage": "figuritas-navidenas.jpg",
-      "secondaryImages": []
+      "primaryImage": "figuritas-navidenas-6ff05976.jpg",
+      "secondaryImages": [
+        "_01-43b734ef.jpg"
+      ]
     },
     {
       "id": "kit-navideno-2-jabones",
