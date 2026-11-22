@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 6,
+  "catalogVersion": 7,
   "versionName": "1.2.0.20261122",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1181,7 +1181,7 @@
           ]
         }
       ],
-      "primaryImage": "kit-navideno-2-jabones.jpg",
+      "primaryImage": "kit-navideno-2-jabones-e87133e9.jpg",
       "secondaryImages": []
     },
     {
