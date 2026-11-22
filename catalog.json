@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 8,
+  "catalogVersion": 9,
   "versionName": "1.2.0.20261122",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1221,7 +1221,11 @@
         }
       ],
       "primaryImage": "kit-navideno-3-jabones.jpg",
-      "secondaryImages": []
+      "secondaryImages": [
+        "_01-8e8b69f7.jpg",
+        "_02-92758bd2.jpg",
+        "_03-3aefea75.jpg"
+      ]
     },
     {
       "id": "kit-navideno-figuritas",
