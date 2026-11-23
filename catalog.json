@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 10,
-  "versionName": "1.2.0.20261122",
+  "catalogVersion": 11,
+  "versionName": "1.2.0.20261123",
   "business": {
     "name": "Carolina Miel y Sábila",
     "currency": "MXN",
@@ -1244,7 +1244,8 @@
             "copo-nieve-15grs",
             "muneco-jengibre-15grs",
             "regalo-15grs",
-            "muneco-nieve-15grs"
+            "muneco-nieve-15grs",
+            "santa-claus-20grs"
           ]
         },
         {
@@ -1255,7 +1256,8 @@
             "copo-nieve-15grs",
             "muneco-jengibre-15grs",
             "regalo-15grs",
-            "muneco-nieve-15grs"
+            "muneco-nieve-15grs",
+            "santa-claus-20grs"
           ]
         },
         {
@@ -1266,7 +1268,8 @@
             "copo-nieve-15grs",
             "muneco-jengibre-15grs",
             "regalo-15grs",
-            "muneco-nieve-15grs"
+            "muneco-nieve-15grs",
+            "santa-claus-20grs"
           ]
         }
       ],
