@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 9,
+  "catalogVersion": 10,
   "versionName": "1.2.0.20261122",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1231,7 +1231,7 @@
       "id": "kit-navideno-figuritas",
       "name": "🎁 Kit de 3 figuritas navideñas",
       "description": "Cajita con 3 figuritas navideñas pequeñas a tu elección: bastón navideño, arbolito, copo de nieve, muñeco de jengibre, regalo o muñeco de nieve (puedes repetir la misma).",
-      "price": 30,
+      "price": 45,
       "priceStatus": "verified",
       "categoryId": "navidad",
       "subcategoryId": null,
@@ -1270,7 +1270,7 @@
           ]
         }
       ],
-      "primaryImage": "kit-navideno-figuritas.jpg",
+      "primaryImage": "kit-navideno-figuritas-2d4e99ed.jpg",
       "secondaryImages": []
     }
   ],
