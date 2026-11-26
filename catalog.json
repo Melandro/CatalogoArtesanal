@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 15,
+  "catalogVersion": 16,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -222,6 +222,7 @@
       "name": "Copo de nieve",
       "grams": 15,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
