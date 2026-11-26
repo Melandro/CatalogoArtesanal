@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 20,
+  "catalogVersion": 21,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -100,7 +100,8 @@
       "id": "ovalado-20grs",
       "name": "Óvalo pequeño",
       "grams": 20,
-      "image": "ovalado-20grs.jpg"
+      "image": "ovalado-20grs.jpg",
+      "price": 15
     },
     {
       "id": "ovalado-relieve-100grs",
