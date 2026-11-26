@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 21,
+  "catalogVersion": 22,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -256,6 +256,7 @@
       "name": "Santa Claus",
       "grams": 20,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
