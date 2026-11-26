@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 19,
+  "catalogVersion": 20,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -38,7 +38,8 @@
       "id": "flor-20grs",
       "name": "Rosa compacta",
       "grams": 20,
-      "image": "flor-20grs.jpg"
+      "image": "flor-20grs.jpg",
+      "price": 15
     },
     {
       "id": "flor-2-65grs",
