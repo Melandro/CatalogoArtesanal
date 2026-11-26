@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 18,
+  "catalogVersion": 19,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -246,6 +246,7 @@
       "name": "Muñeco de nieve",
       "grams": 15,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
