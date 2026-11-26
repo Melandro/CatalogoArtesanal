@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 16,
+  "catalogVersion": 17,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -230,6 +230,7 @@
       "name": "Muñeco de jengibre",
       "grams": 15,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
