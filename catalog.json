@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 13,
+  "catalogVersion": 14,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -206,6 +206,7 @@
       "name": "Bastón navideño",
       "grams": 10,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
