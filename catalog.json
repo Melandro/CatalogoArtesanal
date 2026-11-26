@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 23,
+  "catalogVersion": 24,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1155,7 +1155,6 @@
       "priceStatus": "verified",
       "categoryId": "navidad",
       "subcategoryId": null,
-      "molds": [],
       "primaryImage": "figuritas-navidenas-6ff05976.jpg",
       "secondaryImages": [
         "_01-43b734ef.jpg"
