@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 22,
+  "catalogVersion": 23,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -264,7 +264,7 @@
       "name": "Flores pequeñas 20gr",
       "grams": 20,
       "image": "flores-pequenas-20gr-20grs-4e2fc884.jpg",
-      "price": 12
+      "price": 15
     }
   ],
   "priceLists": [
