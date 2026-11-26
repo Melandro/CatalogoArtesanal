@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 12,
+  "catalogVersion": 13,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -1142,19 +1142,11 @@
       "id": "figuritas-navidenas",
       "name": "🎅 Figuritas navideñas pequeñas",
       "description": "Figuritas navideñas pequeñas, ideales para detalles y regalos. Se venden por pieza:<BR><BR>• Bastón navideño: 7 a 10 g<BR>• Arbolito, copo de nieve, muñeco de jengibre, regalo y muñeco de nieve: 12 a 15 g<BR>• Santa Claus: 18 a 20 g<BR><BR>Elige las figuras que quieras y agrégalas a tu pedido.",
-      "price": 8,
+      "price": 15,
       "priceStatus": "verified",
       "categoryId": "navidad",
       "subcategoryId": null,
-      "molds": [
-        "baston-10grs",
-        "arbolito-15grs",
-        "copo-nieve-15grs",
-        "muneco-jengibre-15grs",
-        "regalo-15grs",
-        "muneco-nieve-15grs",
-        "santa-claus-20grs"
-      ],
+      "molds": [],
       "primaryImage": "figuritas-navidenas-6ff05976.jpg",
       "secondaryImages": [
         "_01-43b734ef.jpg"
