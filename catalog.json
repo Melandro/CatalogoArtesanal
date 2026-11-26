@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 14,
+  "catalogVersion": 15,
   "versionName": "1.2.0.20261125",
   "business": {
     "name": "Carolina Miel y Sábila",
@@ -214,6 +214,7 @@
       "name": "Arbolito",
       "grams": 15,
       "image": "varios-navidad-20grs.jpg",
+      "price": 15,
       "explicitOnly": true
     },
     {
